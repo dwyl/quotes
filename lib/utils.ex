@@ -4,8 +4,8 @@ defmodule Utils do
     list = File.read!("quotes.json")
     |> Jason.decode!
     |> Enum.uniq
-    |> Enum.map(fn q ->
-      if q["author"] != "" && q["author"] != nil do
+    |> Enum.map(fn q -> # quote must not be from unknown authors
+      if q["author"] != "" && q["author"] != nil && q["author"] != "unknown" do
         q
       end
     end)
