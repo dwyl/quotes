@@ -1,9 +1,8 @@
 defmodule Utils do
   def clean do
-    {:ok, data} = File.read("quotes.json")
-    list = Jason.decode!(data)
-    IO.inspect Enum.count(list)
-    clean = list
+    count() # count before running
+    list = File.read!("quotes.json")
+    |> Jason.decode!
     |> Enum.uniq
     |> Enum.map(fn q ->
       if q["author"] != "" && q["author"] != nil do
@@ -14,9 +13,9 @@ defmodule Utils do
     |> Enum.sort_by(fn q ->
       q["author"]
     end)
+    |> Jason.encode!(pretty: true)
 
-    IO.inspect Enum.count(clean)
-    File.write!("quotes.json", Jason.encode!(clean))
+    File.write!("quotes.json", list)
   end
 
   def count do
