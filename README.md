@@ -4,8 +4,8 @@
 quotations.
 
 The quotes are contained
-in a _single_
-[`quotes.json`](https://github.com/nelsonic/quotes/blob/master/quotes.json) file
+in a _single_ file:
+[**`quotes.json`**](https://github.com/nelsonic/quotes/blob/master/quotes.json)
 so they can be used independently
 of any programming language.
 
@@ -15,7 +15,38 @@ several languages.
 -->
 
 
-2. An Elixir module that returns quote when invoked.
+2. A module that returns a quote when invoked.
+Methods include `random`,
+
+
+## Why?
+
+We needed a reliable and _fast_ source of quotes.
+There are _many_ ways of getting quotes
+including several APIs
+but we wanted something
+that had _zero_ latency
+and could (_optionally_) work _offline_
+so we _had_ to collate a database.
+
+The `.json` file can be used in _any_ project or programming language.
+
+
+
+
+## What?
+
+
+
+## _How_?
+
+# Functions
+
+
+
+
+
+## `Elixir`
 
 ## Installation
 
@@ -34,25 +65,53 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/quotes](https://hexdocs.pm/quotes).
 
+<!--
 
-## Why?
+## `Node.js`
 
-We needed a reliable and _fast_ source of quotes.
-There are _many_ ways of getting quotes
-including several APIs
-but we wanted something
-that had _zero_ latency
-and could (_optionally_) work _offline_
-so we _had_ to collate a database.
+# Node.js Sample Code:
 
-The `.json` file can be used in _any_
-project. The
+```js
+
+// Array of quotes with 12 words
+const file = "quotes.json";
+$.getJSON(file).done(function (json) {
+	return json.filter(function (item) {
+		return item.text.split(" ").length <= 12;
+	});
+});
+
+// Array of quotes for author Buddha
+const file = "quotes.json";
+$.getJSON(filePath).done(function (json) {
+	return json.filter(function (item) {
+		return item.author === "Buddha";
+	});
+});
+```
+
+## `Python`
+
+
+
+## Your Favourite Programming Language ...?
+
+#HelpWanted > 
+-->
 
 
 
 
-## What?
+### Remove Quotes Where `author` is `null`, `unknown` or `anonymous`
 
+We aren't interested in having quotes from anonymous authors.
+Anonymous quotes might as well have been said
+by your mate Steve said at the pub;
+they have their place, but it's not here.
+
+So we need to _remove_ them from any bulk quote files.
+see: `Utils.clean` in
+[/lib/utils.ex#L7](https://github.com/nelsonic/quotes/blob/1c0726a8d7cfd14d07f6e58c15ee52beb705fd1b/lib/utils.ex#L7)
 
 
 ## Contributing
@@ -77,8 +136,6 @@ Read through the _existing_ quotes and check they are accurate, relevant
 
 # Film Quotes
 
-
-
 ```json
 {
   "text": "The first rule of magic: always be the smartest guy in the room.",
@@ -95,18 +152,3 @@ Read through the _existing_ quotes and check they are accurate, relevant
 
 If you have an interesting use case for quotes,
 please share below!
-
-
-
-
-
-## _How_?
-
-
-
-### Remove `null`, `unknown` or `anonymous` Quotes
-
-We aren't interested in having quotes from anonymous authors,
-they are clutter.
-
-So we need to _remove_ them from any bulk quote files.
