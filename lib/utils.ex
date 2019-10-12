@@ -1,6 +1,6 @@
 defmodule Utils do
-  def remove_noise do
-    {:ok, data} = File.read("quotes_raw.json")
+  def clean do
+    {:ok, data} = File.read("quotes.json")
     list = Jason.decode!(data)
     IO.inspect Enum.count(list)
     clean = list
