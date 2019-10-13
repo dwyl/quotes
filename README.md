@@ -174,7 +174,8 @@ Happiness has far more to do with mindset, mindfulness and relationships
 than traditionally quantifiable intelligence metrics.
 But it's ridiculous to suggest that
 most intelligent people are unhappy,
-there simply isn't any _empirical **evidence**_. `#rant`
+there simply isn't any _empirical **evidence**_.
+`#rant`
 
 
 
