@@ -191,7 +191,7 @@ there simply isn't any _empirical **evidence**_. `#rant`
 
 
 
-### 2. Add Quotes!
+## 2. Add Quotes!
 
 If there is a quote
 you find inspiring/motivating
@@ -200,9 +200,9 @@ that is _not_ already in the
 file, please add it!
 
 
-#### Guidelines for Good Quotes
+## Guidelines for Good Quotes
 
-##### Keep the length of quotes below 200 characters.
+### Keep the length of quotes below 200 characters.
 
 Avoid adding quotes that are essays; the shorter the quote the better. <br />
 For example:
@@ -260,7 +260,7 @@ https://www.forbes.com/sites/onmarketing/2011/12/14/the-real-story-behind-apples
 Jobs initially called the script “sh*t” ...
 Read the article, it's a _fascinating_ insight into the creative process!
 
-##### Avoid Quotes That Don't Inspire _Action_
+### Avoid Quotes That Don't Inspire _Action_
 
 ![Karl-Pilkington-quote-glass-houses](https://user-images.githubusercontent.com/194400/66721019-511d6a80-edfa-11e9-8a0a-907aea0f0c3e.png)
 
@@ -270,7 +270,7 @@ but this quote while amusing,
 does not _inspire_ any _action_ in the reader.
 
 
-#### Film Quotes
+### Film Quotes
 
 Movies can _often_ be thought provoking, insightful and positive. e.g:
 
@@ -289,7 +289,7 @@ Where a quote from a movie is relevant, add it like this:
 }
 ```
 
-### 3. Share Your Use Case!
+## 3. Share Your Use Case!
 
 If you have an interesting use case for quotes,
 please share below!
