@@ -16,7 +16,7 @@ several languages.
 
 
 2. A module that returns a quote when invoked.
-Methods include `random`,
+Methods include `random`, `author` and `tag`.
 
 
 ## Why?
@@ -42,6 +42,9 @@ can be used in _any_ project or programming language.
 
 
 ## _How_?
+
+
+
 
 # Functions
 
@@ -130,7 +133,8 @@ see: `Utils.clean` in
 
 ## Contributing
 
-As always with @dwyl project, contributions are _very much_ welcome! <br />
+As always with [@dwyl]() projects,
+contributions are _very much_ welcome! <br />
 There are 3 ways of contributing to this project:
 
 1. Curate
@@ -151,7 +155,7 @@ we aren't interested in quotes with a negative tone.
 For example, consider the following quote which is _not_ included in our list:
 
 > "_Happiness in intelligent people is the rarest thing I know_.”
-~ Ernest Hemingway, The Garden of Eden
+~ [Ernest Hemingway](https://en.wikipedia.org/wiki/Ernest_Hemingway)
 
 This quote is certainly _interesting_
 and it may even be **`true`** in certain cases;
@@ -165,13 +169,13 @@ and happiness are
 which we _all_ know is misleading.
 In fact there is evidence that intelligence
 if _used_ for positive ends
-leads to greater well-being:
-https://blogs.scientificamerican.com/beautiful-minds/can-intelligence-buy-you-happiness/
+leads to
+[greater well-being](https://blogs.scientificamerican.com/beautiful-minds/can-intelligence-buy-you-happiness).
 Happiness has far more to do with mindset, mindfulness and relationships
 than traditionally quantifiable intelligence metrics.
 But it's ridiculous to suggest that
 most intelligent people are unhappy,
-there simply isn't any _concrete_ data.
+there simply isn't any _empirical **evidence**_. `#rant`
 
 
 
@@ -188,9 +192,10 @@ there simply isn't any _concrete_ data.
 
 
 
-### 2. Add Your Quotes!
+### 2. Add Quotes!
 
-If there is a quote you find inspiring/motivating
+If there is a quote
+you find inspiring/motivating
 that is _not_ already in the
 [**`quotes.json`**](https://github.com/nelsonic/quotes/blob/master/quotes.json)
 file, please add it!
@@ -218,8 +223,9 @@ are the ones who do._"
 ~ Rob Siltanen
 
 That quote is 101 words (547 characters); it's an essay.
-(_in fact is was the **script** written by Siltanen for the Apple commercial_)
-Instead we prefer the short version (18 words | 85 characters):
+It was the **script** written by Siltanen
+for the Apple "Think Different" commercial.
+We prefer the short version (18 words | 85 characters):
 
 > "_The people who are crazy enough
 to think they can change the world
@@ -252,8 +258,17 @@ Given that Steve Jobs _read_ the script in the Apple "Think Different"
 commercial, people often _misattribute_ the quote to Steve.
 A minute of research and we are better informed:
 https://www.forbes.com/sites/onmarketing/2011/12/14/the-real-story-behind-apples-think-different-campaign
-Jobs initially called the script “shit.”
+Jobs initially called the script “sh*t” ...
 Read the article, it's a _fascinating_ insight into the creative process!
+
+##### Avoid Quotes That Go Nowhere
+
+![Karl-Pilkington-quote-glass-houses](https://user-images.githubusercontent.com/194400/66721019-511d6a80-edfa-11e9-8a0a-907aea0f0c3e.png)
+
+[Karl Pilkington](https://en.wikipedia.org/wiki/Karl_Pilkington)
+is often _hilarious_ and even insightful,
+but this quote while amusing,
+does not _motivate_ any action in the reader.
 
 
 #### Film Quotes
@@ -274,11 +289,6 @@ Where a quote from a movie is relevant, add it like this:
   "tags": "fictional, movie, do, try, star wars"  
 }
 ```
-
-
-
-
-
 
 ### 3. Share Your Use Case!
 
