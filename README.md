@@ -1,7 +1,6 @@
 # 💬 `quotes`
 
-1. A collection of thought provoking
-quotations.
+1. A collection of inspiring quotations.
 
 The quotes are contained
 in a _single_ file:
@@ -261,14 +260,14 @@ https://www.forbes.com/sites/onmarketing/2011/12/14/the-real-story-behind-apples
 Jobs initially called the script “sh*t” ...
 Read the article, it's a _fascinating_ insight into the creative process!
 
-##### Avoid Quotes That Go Nowhere
+##### Avoid Quotes That Don't Inspire _Action_
 
 ![Karl-Pilkington-quote-glass-houses](https://user-images.githubusercontent.com/194400/66721019-511d6a80-edfa-11e9-8a0a-907aea0f0c3e.png)
 
 [Karl Pilkington](https://en.wikipedia.org/wiki/Karl_Pilkington)
 is often _hilarious_ and even insightful,
 but this quote while amusing,
-does not _motivate_ any action in the reader.
+does not _inspire_ any _action_ in the reader.
 
 
 #### Film Quotes
