@@ -41,4 +41,21 @@ defmodule Quotes do
     File.read!("quotes.json") |> Jason.decode!()
   end
 
+  @doc """
+  random returns a random quote.
+  e.g:
+  [
+    %{
+      "author" => "Peter Drucker",
+      "source" => "https://www.goodreads.com/quotes/784267",
+      "tags" => "time, management",
+      "text" => "Until we can manage time, we can manage nothing else."
+    }
+  ]
+  """
+  def random do
+    parse_json()
+    |> Enum.random()
+  end
+
 end

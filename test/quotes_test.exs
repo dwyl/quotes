@@ -36,6 +36,7 @@ defmodule QuotesTest do
     end)
   end
 
+  # This recursive function calls Quotes.random until a quote is repeated
   def get_random_quote_until_collision(random_quotes_list) do
     random_quote = Quotes.random()
     if Enum.member?(random_quotes_list, random_quote) do
@@ -45,10 +46,11 @@ defmodule QuotesTest do
     end
   end
 
-  test "Quotes.random returns a random quote by any author" do
+  test "Quotes.random returns a random quote" do
+    # execute Quotes.random and accoumlate until a collision occurs
     random_quotes_list = get_random_quote_until_collision([])
     # this is the birthday paradox at work! ;-)
-    IO.inspect Enum.count(random_quotes_list), Label: "Collision after"
+    # IO.inspect Enum.count(random_quotes_list)
     assert Enum.count(random_quotes_list) < 200
   end
 
