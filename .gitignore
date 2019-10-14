@@ -25,3 +25,4 @@ quotes-*.tar
 *.beam
 /config/*.secret.exs
 quotes_raw.json
+.DS_Store
