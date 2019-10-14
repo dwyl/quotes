@@ -4,7 +4,9 @@ defmodule Quotes do
   """
 
   @doc """
-  parse_json returns a list of maps with quotes in the following form:
+  `parse_json` returns a list of maps containing quotes. <br />
+
+  The format returned is:
   ```elixir
   [
     %{
@@ -31,7 +33,8 @@ defmodule Quotes do
   end
 
   @doc """
-  random returns a random quote.
+  `random` returns a random quote. <br />
+
   e.g:
   ```elixir
   %{
