@@ -36,6 +36,20 @@ defmodule QuotesTest do
     end)
   end
 
-  
+  def get_random_quote_until_collision(random_quotes_list) do
+    random_quote = Quotes.random()
+    if Enum.member?(random_quotes_list, random_quote) do
+      random_quotes_list
+    else
+      get_random_quote_until_collision([random_quote | random_quotes_list])
+    end
+  end
+
+  test "Quotes.random returns a random quote by any author" do
+    random_quotes_list = get_random_quote_until_collision([])
+    # this is the birthday paradox at work! ;-)
+    IO.inspect Enum.count(random_quotes_list), Label: "Collision after"
+    assert Enum.count(random_quotes_list) < 200
+  end
 
 end
