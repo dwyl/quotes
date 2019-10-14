@@ -35,6 +35,5 @@ defmodule Utils do
     File.read!("quotes.json")
     |> Jason.decode!()
     |> Enum.count
-    |> IO.inspect(label: "count")
   end
 end
