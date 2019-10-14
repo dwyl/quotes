@@ -30,7 +30,8 @@ defmodule Quotes.MixProject do
     [
       {:jason, "~> 1.1"},
 
-      {:ex_doc, "~> 0.21", only: :dev}
+      {:ex_doc, "~> 0.21", only: :dev},
+      {:excoveralls, "~> 0.10", only: :test},
     ]
   end
 

@@ -38,6 +38,8 @@ can be used in _any_ project or programming language.
 
 ## What?
 
+1. A file containing thousands of inspiring quotes.
+2. A module for returning a random quote.
 
 
 ## _How_?
@@ -257,7 +259,7 @@ Note: This is also a good example of a quote that has been _misattributed_.
 Given that Steve Jobs _read_ the script in the Apple "Think Different"
 commercial, people often _misattribute_ the quote to Steve.
 A minute of research and we are better informed:
-https://www.forbes.com/sites/onmarketing/2011/12/14/the-real-story-behind-apples-think-different-campaign
+https://www.forbes.com/sites/onmarketing/2011/12/14/the-real-story-behind-apples-think-different-campaign <br />
 Jobs initially called the script “sh*t” ...
 Read the article, it's a _fascinating_ insight into the creative process!
 
