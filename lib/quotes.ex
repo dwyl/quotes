@@ -4,20 +4,8 @@ defmodule Quotes do
   """
 
   @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Quotes.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
-
-  @doc """
   parse_json returns a list of maps with quotes in the following form:
+  ```elixir
   [
     %{
       "author" => "Albert Einstein",
@@ -32,9 +20,10 @@ defmodule Quotes do
     %{...},
     ...
   ]
-
-  All quotes MUST have an `author` and `text` field.
-  Some quotes have `tags` and `source`, please help to expand/verify others.
+  ```
+  All quotes MUST have an `author` and `text` field. <br />
+  Some quotes have `tags` and `source`,
+  please help to expand/verify others. <br />
   see: https://github.com/nelsonic/quotes#contributing
   """
   def parse_json do
@@ -44,14 +33,14 @@ defmodule Quotes do
   @doc """
   random returns a random quote.
   e.g:
-  [
-    %{
-      "author" => "Peter Drucker",
-      "source" => "https://www.goodreads.com/quotes/784267",
-      "tags" => "time, management",
-      "text" => "Until we can manage time, we can manage nothing else."
-    }
-  ]
+  ```elixir
+  %{
+    "author" => "Peter Drucker",
+    "source" => "https://www.goodreads.com/quotes/784267",
+    "tags" => "time, management",
+    "text" => "Until we can manage time, we can manage nothing else."
+  }
+  ```
   """
   def random do
     parse_json()

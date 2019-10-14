@@ -1,10 +1,5 @@
 defmodule QuotesTest do
   use ExUnit.Case
-  doctest Quotes
-
-  test "greets the world" do
-    assert Quotes.hello() == :world
-  end
 
   test "parse_json returns a list of maps containing quotes" do
     list = Quotes.parse_json()
