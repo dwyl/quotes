@@ -26,4 +26,16 @@ defmodule QuotesTest do
     assert sample == found # sample quote was found in the list
   end
 
+  test "all quotes have author and text property" do
+    Quotes.parse_json()
+    |> Enum.each(fn(q) ->
+      assert Map.has_key?(q, "author")
+      assert Map.has_key?(q, "text")
+      assert String.length(q["author"]) > 2 # see: https://git.io/Je8CO
+      assert String.length(q["text"]) > 10
+    end)
+  end
+
+  
+
 end
