@@ -4,7 +4,7 @@ defmodule Quotes.MixProject do
   def project do
     [
       app: :quotes,
-      version: "0.1.0",
+      version: "1.0.0",
       package: package(),
       description: description(),
       elixir: "~> 1.9",
@@ -36,7 +36,7 @@ defmodule Quotes.MixProject do
   end
 
   defp description() do
-    "quotes is a collection of inspiring quotes and methods to return them."
+    "a collection of inspiring quotes and methods to return them."
   end
 
   defp package() do
@@ -44,7 +44,7 @@ defmodule Quotes.MixProject do
       name: "quotes",
       licenses: ["GNU GPL v2.0"],
       maintainers: ["dwyl"],
-      links: %{"GitHub" => "https://github.com/nelsonic/quotes"}
+      links: %{"GitHub" => "https://github.com/dwyl/quotes"}
     ]
 end
 end
