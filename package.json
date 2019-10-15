@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Comming soon!\" && exit 0",
+    "test": "node test/index.test.js",
     "jsonlint": "node node_modules/.bin/jsonlint quotes.json"
   },
   "repository": {
@@ -28,5 +28,8 @@
   "homepage": "https://github.com/dwyl/quotes#readme",
   "dependencies": {
     "jsonlint": "^1.6.3"
+  },
+  "devDependencies": {
+    "tape": "^4.11.0"
   }
 }
