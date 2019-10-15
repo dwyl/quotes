@@ -1,9 +1,9 @@
 language: elixir
 elixir:
-  - 1.8
+  - 1.9
 env:
   - MIX_ENV=test
-before_script:
+before_install:
   - npm install
   - node node_modules/.bin/jsonlint quotes.json
 script:
