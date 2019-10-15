@@ -4,8 +4,9 @@ elixir:
 env:
   - MIX_ENV=test
 before_install:
-  - npm install # install jsonlint
+  - npm install # install jsonlint and run *before* anything else
   - npm run jsonlint # ensure that quotes.json is valid JSON
+  - npm test
 script:
   - mix coveralls.json
 after_success:
