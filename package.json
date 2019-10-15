@@ -1,0 +1,32 @@
+{
+  "name": "quotesy",
+  "version": "1.0.0",
+  "description": "A collection of inspiring quotes to fuel your progress!",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Comming soon!\" && exit 0",
+    "jsonlint": "hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwyl/quotes.git"
+  },
+  "keywords": [
+    "quotes",
+    "collection",
+    "database"
+  ],
+  "author": "dwyl & friends",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/dwyl/quotes/issues"
+  },
+  "homepage": "https://github.com/dwyl/quotes#readme",
+  "dependencies": {
+    "jsonlint": "^1.6.3"
+  }
+}
