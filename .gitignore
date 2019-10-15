@@ -26,3 +26,4 @@ quotes-*.tar
 /config/*.secret.exs
 quotes_raw.json
 .DS_Store
+package-lock.json
