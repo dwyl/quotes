@@ -3,6 +3,7 @@ defmodule UtilsTest do
 
   test "clean up data in quotes.json" do
     Utils.clean()
+    
     # Confirm there are no anonymous authors:
     list = File.read!("quotes.json")
     |> Jason.decode!
@@ -11,11 +12,12 @@ defmodule UtilsTest do
       if q["author"] == ""
       || q["author"] == nil
       || q["author"] == "unknown"
-      || q["author"] == "anonymous"do
+      || q["author"] == "anonymous" do
         q
       end
     end)
     |> Enum.filter(& !is_nil(&1))
+
     assert Enum.count(list) == 0
   end
 end

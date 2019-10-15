@@ -5,6 +5,8 @@ defmodule Utils do
 
   @doc """
   cleans up quotes sourced from various places.
+  Removes anonymous authors
+  and orders alphabetically by author.
   see: https://github.com/nelsonic/quotes/issues/1
   """
   def clean do
