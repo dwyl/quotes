@@ -53,10 +53,10 @@ The module can be used from `Elixir` and `Javascript`/`Node.js`.
 
 ## _How_?
 
-There are two ways you can use this project:
+There are two ways you can use this project: <br>
 **A.** Use the  
 [**`quotes.json`**](https://github.com/nelsonic/quotes/blob/master/quotes.json)
-list of quotes _directly_.
+list of quotes _directly_ (_for any purpose_). <br />
 **B.** Use the module to return a random quote; sample code below.
 
 
@@ -67,9 +67,11 @@ for creating the `quotes` project
 was to show a practical
 code reuse example in `Elixir`.
 If you are learning `Elixir`
-(_and we think you should be_),
-follow along with the
-[code reuse tutorial]()
+(_and we think you
+  [should](https://github.com/dwyl/learn-elixir/issues/102)
+  be_),
+follow along with the <!-- update link once published! -->
+[code reuse tutorial](https://github.com/dwyl/learn-elixir/blob/code-reuse-publishing-to-hexpm-issue%2395/code-reuse-hexpm.md)
 to see this module in action!
 
 ### Install from Hex.pm
@@ -224,7 +226,8 @@ To add a source, simply copy-paste the quote
 into your favourite search engine.
 Find a reputable quotes site and link to it.
 
-For example, consider the following quote (_without a source or tags_):
+For example, consider the following quote
+(_before the addition of a source or tags_):
 
 ```js
 {
@@ -232,6 +235,72 @@ For example, consider the following quote (_without a source or tags_):
   "text": "I have no special talent. I am only passionately curious."
 },
 ```
+https://duckduckgo.com/?q=I+have+no+special+talent.+I+am+only+passionately+curious
+
+![duck-duck-go-search-for-einstein-quote](https://user-images.githubusercontent.com/194400/66868307-01bf7180-ef95-11e9-93f3-4cba28512b87.png)
+
+Click the link to visit the source and confirm that it's good.
+
+https://www.goodreads.com/quotes/11458-i-have-no-special-talents-i-am-only-passionately-curious
+
+![goodreads-einstein-quote](https://user-images.githubusercontent.com/194400/66868413-2ca9c580-ef95-11e9-94f7-79f62e7424b2.png)
+
+We only need the part of the URL up to the end of the digits:
+https://www.goodreads.com/quotes/11458
+(_the rest is added to the URL for SEO purposes
+  and is not required to find the resource_)
+
+Add the source and any relevant tags:
+```js
+{
+  "author": "Albert Einstein",
+  "text": "I have no special talent. I am only passionately curious.",
+  "source": "https://www.goodreads.com/quotes/11458",
+  "tags": "talent, curious, curiosity, passion"
+},
+```
+Open the
+[`quotes.json`](https://github.com/dwyl/quotes/blob/master/quotes.json)
+file in your web browser (_while logged-in to GitHub_):
+
+![github-click-pencil-icon-to-edit](https://user-images.githubusercontent.com/194400/66868718-c40f1880-ef95-11e9-9d84-979a847af875.png)
+
+Click the **pencil icon** to edit the file.
+Once in edit mode, locate the quote by searching for it:
+
+![locate-the-quote](https://user-images.githubusercontent.com/194400/66869250-df2e5800-ef96-11e9-8235-0cd7a79d22f9.png)
+
+Make the edit to add the `"source"` and `"tags"`:
+![update-the-quote](https://user-images.githubusercontent.com/194400/66869516-83180380-ef97-11e9-82c6-59600b58b9bb.png)
+
+Scroll down to the bottom of the page till you see **Commit changes**
+(_or use your browser shortcut to go to the bottom e.g: the **[`End`]** key_)
+
+![add-commit-message-and-branch-name](https://user-images.githubusercontent.com/194400/66869523-8612f400-ef97-11e9-9aa4-e43815a90a1e.png)
+
+Write a descriptive commit message and
+give your branch and appropriate/obvious name:
+e.g: `add-source-and-tags-to-einstein-quote`
+
+Click the button that says "**Propose file change**".
+
+Your browser will navigate to the "**Open a pull request**" page:
+
+![create-pull-request](https://user-images.githubusercontent.com/194400/66869856-29fc9f80-ef98-11e9-8b7e-b543de6ba68c.png)
+
+Add a relevant description
+and click the "**Create pull request**" button. <br />
+
+Example: https://github.com/dwyl/quotes/pull/7
+
+![pull-request-awaiting-review](https://user-images.githubusercontent.com/194400/66870553-9e840e00-ef99-11e9-88f2-3a84ec4b2199.png)
+
+Provided your changes/improvements pass the automated checks
+and are sensible, they will be **approved**
+and ***merged*** by an existing member of the project:
+
+![pull-request-merged](https://user-images.githubusercontent.com/194400/66870725-fde21e00-ef99-11e9-8de1-720ab0ffdeef.png)
+
 
 
 <!-- Let's add this in once we have received a few quote submissions
