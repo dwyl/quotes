@@ -86,10 +86,33 @@ end
 
 ### Usage in `Elixir`
 
-To get a random quote from the list invoke `Quotes.random()`
+To get a random quote from the list invoke:
 
+```elixir
+iex> Quotes.random()
+```
+You will receive a `Map`
+with an `"author" and `"text"` fields. e.g:
 
+```elixir
+%{
+  "author" => "Peter Drucker",
+  "text" => "The best way to predict your future is to create it."
+}
+```
 
+_Some_ of the quotes have been augmented with a `"source"` and `"tags"`:
+
+```elixir
+%{
+  "author" => "Peter Drucker",
+  "source" => "https://www.goodreads.com/quotes/784267",
+  "tags" => "time, management",
+  "text" => "Until we can manage time, we can manage nothing else."
+}
+```
+
+<br />
 
 ## `Node.js`
 
@@ -105,7 +128,12 @@ npm install quotesy --save
 // Get Random Quote:
 const quotes = require("quotesy");
 const quote = quotes.random();
-//
+// expect an object of the following form:
+{
+  "author": "Peter Drucker",
+  "text": "The best way to predict your future is to create it."
+}
+
 
 // Array of quotes with 12 words
 const quotes = require("quotesy").parse_json;
@@ -185,6 +213,12 @@ there simply isn't any _empirical **evidence**_.
 
 ### 1.a _Improve_ Existing Quotes with Sources & Tags
 
+Open the `quotes.json` file and scroll through the quotes.
+If you find a quote that you like,
+you can _enhance_ it with a source and tags.
+
+For a source, simply copy-paste the quote
+into your favourite search engine:
 
 
 
@@ -293,10 +327,12 @@ Where a quote from a movie is relevant, add it like this:
 }
 ```
 
-## 3. Share Your Use Case!
+## 3. Share!
 
-If you have an interesting use case for quotes,
-please share below!
++ Let others know about this bank of quotes
+by "starring" the project on GitHub! ⭐️
++ If you have an interesting use case for quotes,
+please share!
 
 
 
