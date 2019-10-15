@@ -54,7 +54,7 @@ The module can be used from `Elixir` and `Javascript`/`Node.js`.
 ## _How_?
 
 There are two ways you can use this project: <br>
-**A.** Use the  
+**A.** Use the
 [**`quotes.json`**](https://github.com/nelsonic/quotes/blob/master/quotes.json)
 list of quotes _directly_ (_for any purpose_). <br />
 **B.** Use the module to return a random quote; sample code below.
@@ -155,9 +155,9 @@ const buddha_quotes = quotes.filter(function (item) {
 
 <br />
 <hr />
-## Need a Different Programming Language ...?
+## Need a _Different_ Programming Language ...?
 
-Want to add an example in your preferred programming language?
+Want to add an example in your preferred programming language? <br />
 Please comment on this issue:
 [quotes/issues/6](https://github.com/dwyl/quotes/issues/6)
 
@@ -218,13 +218,10 @@ there simply isn't any _empirical **evidence**_.
 
 ### _Improve_ Existing Quotes with Sources & Tags
 
-Open the `quotes.json` file and scroll through the quotes.
-If you find a quote that you like,
+Open the `quotes.json` file and scroll through the quotes. <br />
+If you find a quote that you like
+(_that doesn't already have "source" or "tags")
 you can _enhance_ it with a source and tags.
-
-To add a source, simply copy-paste the quote
-into your favourite search engine.
-Find a reputable quotes site and link to it.
 
 For example, consider the following quote
 (_before the addition of a source or tags_):
@@ -235,6 +232,10 @@ For example, consider the following quote
   "text": "I have no special talent. I am only passionately curious."
 },
 ```
+
+To find a reputable source, simply copy paste the quote
+into your favourite search engine:
+
 https://duckduckgo.com/?q=I+have+no+special+talent.+I+am+only+passionately+curious
 
 ![duck-duck-go-search-for-einstein-quote](https://user-images.githubusercontent.com/194400/66868307-01bf7180-ef95-11e9-93f3-4cba28512b87.png)
@@ -246,7 +247,7 @@ https://www.goodreads.com/quotes/11458-i-have-no-special-talents-i-am-only-passi
 ![goodreads-einstein-quote](https://user-images.githubusercontent.com/194400/66868413-2ca9c580-ef95-11e9-94f7-79f62e7424b2.png)
 
 We only need the part of the URL up to the end of the digits:
-https://www.goodreads.com/quotes/11458
+https://www.goodreads.com/quotes/11458 <br />
 (_the rest is added to the URL for SEO purposes
   and is not required to find the resource_)
 
@@ -273,13 +274,13 @@ Once in edit mode, locate the quote by searching for it:
 Make the edit to add the `"source"` and `"tags"`:
 ![update-the-quote](https://user-images.githubusercontent.com/194400/66869516-83180380-ef97-11e9-82c6-59600b58b9bb.png)
 
-Scroll down to the bottom of the page till you see **Commit changes**
+Scroll down to the bottom of the page till you see **Commit changes** <br />
 (_or use your browser shortcut to go to the bottom e.g: the **[`End`]** key_)
 
 ![add-commit-message-and-branch-name](https://user-images.githubusercontent.com/194400/66869523-8612f400-ef97-11e9-9aa4-e43815a90a1e.png)
 
 Write a descriptive commit message and
-give your branch and appropriate/obvious name:
+give your branch and appropriate/obvious name: <br />
 e.g: `add-source-and-tags-to-einstein-quote`
 
 Click the button that says "**Propose file change**".
@@ -296,11 +297,15 @@ Example: https://github.com/dwyl/quotes/pull/7
 ![pull-request-awaiting-review](https://user-images.githubusercontent.com/194400/66870553-9e840e00-ef99-11e9-88f2-3a84ec4b2199.png)
 
 Provided your changes/improvements pass the automated checks
-and are sensible, they will be **approved**
+and are sensible, <br />
+they will be **approved**
 and ***merged*** by an existing member of the project:
 
 ![pull-request-merged](https://user-images.githubusercontent.com/194400/66870725-fde21e00-ef99-11e9-8de1-720ab0ffdeef.png)
 
+Once you have contributed an improvement,
+you will be added to the list of maintainers
+and will be able to approve other people's additions.
 
 
 <!-- Let's add this in once we have received a few quote submissions
