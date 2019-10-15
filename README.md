@@ -15,15 +15,17 @@ several languages.
 
 
 2. A module that returns a quote when invoked.
-Methods include `random`, `author` and `tag`.
+
 
 [![Hex pm](http://img.shields.io/hexpm/v/excid.svg?style=flat-square)](https://hex.pm/packages/excid)
+[![npm package version](https://img.shields.io/npm/v/quotesy.svg?style=flat-square)](https://www.npmjs.com/package/quotesy)
 [![Build Status](https://img.shields.io/travis/dwyl/quotes/master.svg?style=flat-square)](https://travis-ci.org/dwyl/quotes)
 [![codecov.io](https://img.shields.io/codecov/c/github/dwyl/quotes/master.svg?style=flat-square)](http://codecov.io/github/dwyl/quotes?branch=master)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/quotes/issues)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/quotes#contributing)
 [![HitCount](http://hits.dwyl.io/dwyl/quotes.svg)](http://hits.dwyl.io/dwyl/quotes)
 
-# "_The future depends on what you do today._" ~ Mahatma Gandhi
+
+![gandhi-future-depens-on-what-you-do-today](https://user-images.githubusercontent.com/194400/66840284-b9399100-ef5f-11e9-80e4-6d62f872f908.jpg "The future depends on what you do today ~ Mahatma Gandhi")
 
 
 ## Why?
@@ -36,19 +38,18 @@ that had _zero_ latency
 and could (_optionally_) work _offline_
 so we collated a database from various sources.
 
-The
-[**`quotes.json`**](https://github.com/nelsonic/quotes/blob/master/quotes.json)
-file
-can be used in _any_ project or programming language.
-
-
-
 
 ## What?
 
 1. A file containing thousands of inspiring quotes.
 2. A module for returning a random quote.
 
+The
+[**`quotes.json`**](https://github.com/nelsonic/quotes/blob/master/quotes.json)
+file
+can be used in _any_ project or programming language.
+
+The module can be used from `Elixir` and `Javascript`/`Node.js`.
 
 ## _How_?
 
@@ -69,7 +70,7 @@ was to show a practical
 code reuse example in `Elixir`.
 If you are learning `Elixir`
 (_and we think you should be_),
-follow along with the ]
+follow along with the
 [code reuse tutorial]()
 to see this module in action!
 
@@ -295,6 +296,7 @@ please share below!
 
 <br />
 
+<!--
 
 #### `Utils.clean()` Removes Quotes Where `author` is `null`, `unknown` or `anonymous`
 
@@ -306,3 +308,5 @@ they have their place, but it's not here.
 So we need to _remove_ them from any bulk quote files.
 see: `Utils.clean` in
 [/lib/utils.ex#L17](https://github.com/dwyl/quotes/blob/cff02564691b512e66a2d39701fcd0d6b19d98f3/lib/utils.ex#L17)
+
+-->
