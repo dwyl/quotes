@@ -15,7 +15,11 @@ defmodule Utils do
     |> Jason.decode!
     |> Enum.uniq
     |> Enum.map(fn q -> # quote must not be from unknown authors
-      if q["author"] != "" && q["author"] != nil && q["author"] != "unknown" do
+      if q["author"] != ""
+      && q["author"] != nil
+      && q["author"] != "unknown"
+      && q["author"] != "anonymous"
+      do
         q
       end
     end)
