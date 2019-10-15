@@ -17,10 +17,11 @@ several languages.
 2. A module that returns a quote when invoked.
 Methods include `random`, `author` and `tag`.
 
-[![Build Status](https://img.shields.io/travis/dwyl/hapi-auth-jwt2/master.svg?style=flat-square)](https://travis-ci.org/dwyl/hapi-auth-jwt2)
-[![codecov.io](https://img.shields.io/codecov/c/github/dwyl/hapi-auth-jwt2/master.svg?style=flat-square)](http://codecov.io/github/dwyl/hapi-auth-jwt2?branch=master)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/hapi-auth-jwt2/issues)
-[![HitCount](http://hits.dwyl.io/dwyl/hapi-auth-jwt2.svg)](http://hits.dwyl.io/dwyl/hapi-auth-jwt2)
+[![Hex pm](http://img.shields.io/hexpm/v/excid.svg?style=flat-square)](https://hex.pm/packages/excid)
+[![Build Status](https://img.shields.io/travis/dwyl/quotes/master.svg?style=flat-square)](https://travis-ci.org/dwyl/quotes)
+[![codecov.io](https://img.shields.io/codecov/c/github/dwyl/quotes/master.svg?style=flat-square)](http://codecov.io/github/dwyl/quotes?branch=master)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/quotes/issues)
+[![HitCount](http://hits.dwyl.io/dwyl/quotes.svg)](http://hits.dwyl.io/dwyl/quotes)
 
 # "_The future depends on what you do today._" ~ Mahatma Gandhi
 
