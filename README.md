@@ -53,13 +53,9 @@ The module can be used from `Elixir` and `Javascript`/`Node.js`.
 
 ## _How_?
 
-
-
-
-# Functions
-
-
-
+There are two ways you can use this project:
+1. use the **`quotes.json`** list of quotes _directly_.
+2. use the module to return a random quote; sample code below.
 
 
 ## `Elixir`
@@ -74,49 +70,57 @@ follow along with the
 [code reuse tutorial]()
 to see this module in action!
 
-### Installation
+### Install from Hex.pm
 
-If [available in Hex](https://hex.pm/docs/publish),
-the package can be installed
-by adding `quotes` to your list of dependencies in `mix.exs`:
+The `quotes` elixir module is available on hex.pm:
+https://hex.pm/packages/quotes <br />
+Add `quotes` to your list of `deps` (dependencies) in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:quotes, "~> 0.1.0"}
+    {:quotes, "~> 1.0.0"}
   ]
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/quotes](https://hexdocs.pm/quotes).
+### Usage in `Elixir`
 
-<!--
+To get a random quote from the list invoke `Quotes.random()`
+
+
+
 
 ## `Node.js`
 
-# Node.js Sample Code:
+### Install from NPM
+
+```sh
+npm install quotesy --save
+```
+
+### Node.js Sample Code:
 
 ```js
+// Get Random Quote:
+const quotes = require("quotesy");
+const quote = quotes.random();
+//
 
 // Array of quotes with 12 words
-const file = "quotes.json";
-$.getJSON(file).done(function (json) {
-	return json.filter(function (item) {
-		return item.text.split(" ").length <= 12;
-	});
+const quotes = require("quotesy").parse_json;
+const buddha_quotes = quotes.filter(function (item) {
+  return item.text.split(" ").length <= 12;
 });
 
 // Array of quotes for author Buddha
-const file = "quotes.json";
-$.getJSON(filePath).done(function (json) {
-	return json.filter(function (item) {
-		return item.author === "Buddha";
-	});
+const quotes = require("quotesy").parse_json;
+const buddha_quotes = quotes.filter(function (item) {
+	return item.author === "Buddha";
 });
-```
 
+```
+<!--
 ## `Python`
 
 
@@ -129,9 +133,9 @@ $.getJSON(filePath).done(function (json) {
 
 ## Contributing
 
-As always with [@dwyl]() projects,
+As with all [@dwyl](https://github.com/dwyl) projects,
 contributions are _very much_ welcome! <br />
-There are 3 ways of contributing to this project:
+There are 3 ways of contributing to the quotes project:
 
 1. Curate
 2. Add
@@ -141,11 +145,11 @@ There are 3 ways of contributing to this project:
 
 Read through the _existing_ quotes
 and check they are accurate,
-insightful and _positive_.
+insightful and inspires _positive action_.
 Accuracy means no misquotes or _misattributions_
 (_attributing a quote to an author when in fact they never said/wrote it_).
 Insightful means it gives us some insight that we can apply to our own lives.
-Positivity is vital,
+Inspires _positive action_ is vital,
 we aren't interested in quotes with a negative tone.
 
 For example, consider the following quote which is _not_ included in our list:
@@ -159,7 +163,9 @@ some of the most intelligent people
 in history have been utterly miserable for whatever reason.
 While the quote is insightful
 it's _definitely_ not _positive_
-because it implies that intelligence
+and does not inspire any _action_.
+<!--
+it implies that intelligence
 and happiness are
 [mutually exclusive](https://en.wikipedia.org/wiki/Mutual_exclusivity),
 which we _all_ know is misleading.
@@ -173,7 +179,7 @@ But it's ridiculous to suggest that
 most intelligent people are unhappy,
 there simply isn't any _empirical **evidence**_.
 `#rant`
-
+-->
 
 
 
