@@ -17,6 +17,13 @@ several languages.
 2. A module that returns a quote when invoked.
 Methods include `random`, `author` and `tag`.
 
+[![Build Status](https://img.shields.io/travis/dwyl/hapi-auth-jwt2/master.svg?style=flat-square)](https://travis-ci.org/dwyl/hapi-auth-jwt2)
+[![codecov.io](https://img.shields.io/codecov/c/github/dwyl/hapi-auth-jwt2/master.svg?style=flat-square)](http://codecov.io/github/dwyl/hapi-auth-jwt2?branch=master)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/hapi-auth-jwt2/issues)
+[![HitCount](http://hits.dwyl.io/dwyl/hapi-auth-jwt2.svg)](http://hits.dwyl.io/dwyl/hapi-auth-jwt2)
+
+# "_The future depends on what you do today._" ~ Mahatma Gandhi
+
 
 ## Why?
 
@@ -26,7 +33,7 @@ including several APIs
 but we wanted something
 that had _zero_ latency
 and could (_optionally_) work _offline_
-so we _had_ to collate a database.
+so we collated a database from various sources.
 
 The
 [**`quotes.json`**](https://github.com/nelsonic/quotes/blob/master/quotes.json)
@@ -116,20 +123,6 @@ $.getJSON(filePath).done(function (json) {
 
 #HelpWanted >
 -->
-
-
-
-
-### Remove Quotes Where `author` is `null`, `unknown` or `anonymous`
-
-We aren't interested in having quotes from anonymous authors.
-Anonymous quotes might as well have been said
-by your mate Steve said at the pub;
-they have their place, but it's not here.
-
-So we need to _remove_ them from any bulk quote files.
-see: `Utils.clean` in
-[/lib/utils.ex#L7](https://github.com/nelsonic/quotes/blob/1c0726a8d7cfd14d07f6e58c15ee52beb705fd1b/lib/utils.ex#L7)
 
 
 ## Contributing
@@ -296,3 +289,19 @@ Where a quote from a movie is relevant, add it like this:
 
 If you have an interesting use case for quotes,
 please share below!
+
+
+
+<br />
+
+
+#### `Utils.clean()` Removes Quotes Where `author` is `null`, `unknown` or `anonymous`
+
+We aren't interested in having quotes from anonymous authors. <br />
+Anonymous quotes might as well have been said
+by your mate Steve said at the pub;
+they have their place, but it's not here.
+
+So we need to _remove_ them from any bulk quote files.
+see: `Utils.clean` in
+[/lib/utils.ex#L17](https://github.com/dwyl/quotes/blob/cff02564691b512e66a2d39701fcd0d6b19d98f3/lib/utils.ex#L17)
