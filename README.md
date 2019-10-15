@@ -1,12 +1,12 @@
 # 💬 `quotes`
 
-1. A collection of inspiring quotations.
+### 1. A collection of inspiring quotations.
 
 The quotes are contained
 in a _single_ file:
-[**`quotes.json`**](https://github.com/nelsonic/quotes/blob/master/quotes.json)
-so they can be used independently
-of any programming language.
+[**`quotes.json`**](https://github.com/nelsonic/quotes/blob/master/quotes.json) <br />
+so they can _easily_ be used independently
+of _any_ programming language.
 
 <!--
 Below are usage examples in
@@ -14,7 +14,7 @@ several languages.
 -->
 
 
-2. A module that returns a quote when invoked.
+### 2. A module that returns a quote when invoked.
 
 
 [![Hex pm](http://img.shields.io/hexpm/v/quotes.svg?style=flat-square)](https://hex.pm/packages/quotes)
@@ -54,8 +54,10 @@ The module can be used from `Elixir` and `Javascript`/`Node.js`.
 ## _How_?
 
 There are two ways you can use this project:
-1. use the **`quotes.json`** list of quotes _directly_.
-2. use the module to return a random quote; sample code below.
+**A.** Use the  
+[**`quotes.json`**](https://github.com/nelsonic/quotes/blob/master/quotes.json)
+list of quotes _directly_.
+**B.** Use the module to return a random quote; sample code below.
 
 
 ## `Elixir`
@@ -148,16 +150,17 @@ const buddha_quotes = quotes.filter(function (item) {
 });
 
 ```
-<!--
-## `Python`
 
+<br />
+<hr />
+## Need a Different Programming Language ...?
 
+Want to add an example in your preferred programming language?
+Please comment on this issue:
+[quotes/issues/6](https://github.com/dwyl/quotes/issues/6)
 
-## Your Favourite Programming Language ...?
-
-#HelpWanted >
--->
-
+<hr />
+<br />
 
 ## Contributing
 
@@ -211,22 +214,34 @@ there simply isn't any _empirical **evidence**_.
 
 
 
-### 1.a _Improve_ Existing Quotes with Sources & Tags
+### _Improve_ Existing Quotes with Sources & Tags
 
 Open the `quotes.json` file and scroll through the quotes.
 If you find a quote that you like,
 you can _enhance_ it with a source and tags.
 
-For a source, simply copy-paste the quote
-into your favourite search engine:
+To add a source, simply copy-paste the quote
+into your favourite search engine.
+Find a reputable quotes site and link to it.
+
+For example, consider the following quote (_without a source or tags_):
+
+```js
+{
+  "author": "Albert Einstein",
+  "text": "I have no special talent. I am only passionately curious."
+},
+```
 
 
-
-
+<!-- Let's add this in once we have received a few quote submissions
 ### 1.b _Review_ Pull Requests for New Additions
 
-
-
+Once you have successfully added a quote to the project,
+you will be added as a maintainer.
+At that point you will be able to review
+other people's additions.
+-->
 
 
 ## 2. Add Quotes!
