@@ -18,6 +18,7 @@ function array_contains_object (arr, obj) {
   return false;
 }
 
+// recursively call quotes.random until a collision is found:
 function get_random_quote_until_collision (random_quotes_list) {
   random_quote = quotes.random();
   if(array_contains_object(random_quotes_list, random_quote)) {
