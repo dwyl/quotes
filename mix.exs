@@ -4,7 +4,7 @@ defmodule Quotes.MixProject do
   def project do
     [
       app: :quotes,
-      version: "1.0.0",
+      version: "1.0.1",
       package: package(),
       description: description(),
       elixir: "~> 1.9",
@@ -29,7 +29,6 @@ defmodule Quotes.MixProject do
   defp deps do
     [
       {:jason, "~> 1.1"},
-
       {:ex_doc, "~> 0.21", only: :dev},
       {:excoveralls, "~> 0.10", only: :test},
     ]
