@@ -179,6 +179,32 @@ const buddha_quotes = quotes.filter(function (item) {
 
 ```
 
+
+### React Sample Code:
+
+```jsx
+// Get Random Quote:
+import quotes from 'quotesy'
+
+class RandomQuote extends Component {
+   state = {
+      quote: quotes.random() 
+   }
+   
+   render(){
+   const { author, text } = this.state.quote
+     return(
+       <blockquote>
+       	{text}
+       <cite>-{author}/cite>
+       </blockquote>
+     
+     )
+   }
+}
+
+```
+
 <br />
 <hr />
 ## Need a _Different_ Programming Language ...?
