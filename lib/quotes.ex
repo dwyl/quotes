@@ -55,11 +55,10 @@ defmodule Quotes do
 
   e.g:
   ```elixir
+  iex> Quotes.random_by_tag("time")
   %{
-    "author" => "Peter Drucker",
-    "source" => "https://www.goodreads.com/quotes/784267",
-    "tags" => "time, management",
-    "text" => "Until we can manage time, we can manage nothing else."
+    "author" => "Leo Tolstoy",
+    "text" => "The two most powerful warriors are patience and time."
   }
   ```
   """
