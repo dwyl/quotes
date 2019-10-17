@@ -1,35 +1,59 @@
 {
-  "name": "quotesy",
-  "version": "1.0.0",
-  "description": "A collection of inspiring quotes to fuel your progress!",
-  "main": "lib/index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
-  "scripts": {
-    "test": "node test/index.test.js",
-    "jsonlint": "node node_modules/.bin/jsonlint quotes.json"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dwyl/quotes.git"
-  },
-  "keywords": [
-    "quotes",
-    "collection",
-    "database"
-  ],
-  "author": "dwyl & friends",
-  "license": "GPL-2.0",
-  "bugs": {
-    "url": "https://github.com/dwyl/quotes/issues"
-  },
-  "homepage": "https://github.com/dwyl/quotes#readme",
-  "dependencies": {
-    "jsonlint": "^1.6.3"
-  },
-  "devDependencies": {
-    "tape": "^4.11.0"
-  }
+	"name": "quotesy",
+	"version": "1.0.0",
+	"description": "A collection of inspiring quotes to fuel your progress!",
+	"main": "lib/index.js",
+	"directories": {
+		"lib": "lib",
+		"test": "test"
+	},
+	"scripts": {
+		"test": "nyc tape ./test/*.test.js | tap-nyc",
+		"jsonlint": "node node_modules/.bin/jsonlint quotes.json"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dwyl/quotes.git"
+	},
+	"keywords": [
+		"quotes",
+		"collection",
+		"database"
+	],
+	"author": "dwyl & friends",
+	"license": "GPL-2.0",
+	"bugs": {
+		"url": "https://github.com/dwyl/quotes/issues"
+	},
+	"homepage": "https://github.com/dwyl/quotes#readme",
+	"devDependencies": {
+		"jsonlint": "^1.6.3",
+		"nyc": "^14.1.1",
+		"pre-commit": "^1.2.2",
+		"tape": "^4.11.0",
+		"tap-nyc": "^1.0.3"
+	},
+	"nyc": {
+		"check-coverage": true,
+		"lines": 100,
+		"statements": 100,
+		"functions": 100,
+		"branches": 100,
+		"include": [
+			"lib/**/*.js"
+		],
+		"exclude": [
+			"test/**/*.spec.js"
+		],
+		"reporter": [
+			"lcov",
+			"text-summary"
+		],
+		"cache": false,
+		"all": true,
+		"report-dir": "./coverage"
+	},
+	"pre-commit": [
+		"test"
+	]
 }
