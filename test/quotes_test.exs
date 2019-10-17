@@ -49,23 +49,14 @@ defmodule QuotesTest do
     assert Enum.count(random_quotes_list) < 200
   end
 
-  # This recursive function calls Quotes.random() until a quote is repeated
-  def get_quotes_by_tag_until_collision(random_quotes_list, tag) do
-    random_quote = Quotes.random_by_tag(tag)
-    if Enum.member?(random_quotes_list, random_quote) do
-      random_quotes_list
-    else
-      get_quotes_by_tag_until_collision(
-        [random_quote | random_quotes_list],
-        tag
-      )
-    end
-  end
 
-  test "Quotes.random_by_tag returns a random quote" do
+  test "Quotes.random_by_tag returns a random quote including the tag" do
     # execute Quotes.random_by_tag and accumulate until a collision occurs
-    random_quotes_list = get_quotes_by_tag_until_collision([], "curious")
-    assert Enum.count(random_quotes_list) < 10
+    tag = "curious"
+    q = Quotes.random_by_tag(tag)
+    # either the text or tags of the quote Map contain the tag:
+    truthy = q["text"] =~ tag || q["tags"] && q["tags"] =~ tag
+    assert truthy
   end
 
 end
