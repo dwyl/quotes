@@ -50,4 +50,34 @@ defmodule Quotes do
     |> Enum.random()
   end
 
+  @doc """
+  `random_by_tag` returns a random quote for the chosen tag/keyword.
+
+  e.g:
+  ```elixir
+  %{
+    "author" => "Peter Drucker",
+    "source" => "https://www.goodreads.com/quotes/784267",
+    "tags" => "time, management",
+    "text" => "Until we can manage time, we can manage nothing else."
+  }
+  ```
+  """
+  def random_by_tag(tag) do
+    # IO.inspect(tag)
+    parse_json()
+    |> Enum.map(fn q ->
+      # IO.inspect(q)
+      if ( !is_nil(q["text"]) && q["text"] =~ tag )
+      || ( !is_nil(q["tags"]) && q["tags"] =~ tag )
+      do
+        q
+      end
+    end)
+    |> Enum.filter(& !is_nil(&1))
+    |> Enum.random()
+  end
+
+
+
 end

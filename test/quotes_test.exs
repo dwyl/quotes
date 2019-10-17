@@ -31,22 +31,41 @@ defmodule QuotesTest do
     end)
   end
 
-  # This recursive function calls Quotes.random until a quote is repeated
-  def get_random_quote_until_collision(random_quotes_list) do
+  # This recursive function calls Quotes.random() until a quote is repeated
+  def get_quotes_until_collision(random_quotes_list) do
     random_quote = Quotes.random()
     if Enum.member?(random_quotes_list, random_quote) do
       random_quotes_list
     else
-      get_random_quote_until_collision([random_quote | random_quotes_list])
+      get_quotes_until_collision([random_quote | random_quotes_list])
     end
   end
 
   test "Quotes.random returns a random quote" do
-    # execute Quotes.random and accoumlate until a collision occurs
-    random_quotes_list = get_random_quote_until_collision([])
+    # execute Quotes.random and accumulate until a collision occurs
+    random_quotes_list = get_quotes_until_collision([])
     # this is the birthday paradox at work! ;-)
     # IO.inspect Enum.count(random_quotes_list)
     assert Enum.count(random_quotes_list) < 200
+  end
+
+  # This recursive function calls Quotes.random() until a quote is repeated
+  def get_quotes_by_tag_until_collision(random_quotes_list, tag) do
+    random_quote = Quotes.random_by_tag(tag)
+    if Enum.member?(random_quotes_list, random_quote) do
+      random_quotes_list
+    else
+      get_quotes_by_tag_until_collision(
+        [random_quote | random_quotes_list],
+        tag
+      )
+    end
+  end
+
+  test "Quotes.random_by_tag returns a random quote" do
+    # execute Quotes.random_by_tag and accumulate until a collision occurs
+    random_quotes_list = get_quotes_by_tag_until_collision([], "curious")
+    assert Enum.count(random_quotes_list) < 10
   end
 
 end

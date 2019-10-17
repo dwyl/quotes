@@ -65,7 +65,7 @@ list of quotes _directly_ (_for any purpose_). <br />
 Our original reason
 for creating the `quotes` project
 was to show a practical
-code reuse example in `Elixir`.
+code reuse example in `Elixir`. <br />
 If you are learning `Elixir`
 (_and we think you
   [should](https://github.com/dwyl/learn-elixir/issues/102)
@@ -87,6 +87,14 @@ def deps do
   ]
 end
 ```
+
+In your terminal run the command:
+
+```sh
+mix deps.get
+```
+
+That will download the module into your project's `deps`.
 
 ### Usage in `Elixir`
 
@@ -113,6 +121,24 @@ _Some_ of the quotes have been augmented with a `"source"` and `"tags"`:
   "source" => "https://www.goodreads.com/quotes/784267",
   "tags" => "time, management",
   "text" => "Until we can manage time, we can manage nothing else."
+}
+```
+`random_by_tag` - get a _random_ quote by a _specific_ tag e.g: `Quotes.random_by_tag("time")`
+
+
+```elixir
+iex> Quotes.random_by_tag("time")
+%{
+  "author" => "Leo Tolstoy",
+  "text" => "The two most powerful warriors are patience and time."
+}
+
+iex> Quotes.random_by_tag("curious")
+%{
+  "author" => "Albert Einstein",
+  "source" => "https://www.goodreads.com/quotes/11458",
+  "tags" => "talent, curious, curiosity, passion",
+  "text" => "I have no special talent. I am only passionately curious."
 }
 ```
 
