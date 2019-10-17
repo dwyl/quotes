@@ -28,3 +28,5 @@ quotes_raw.json
 .DS_Store
 package-lock.json
 node_modules
+coverage
+.nyc_output
