@@ -36,3 +36,12 @@ test('quotes.random returns a random quote object', function (t) {
   t.ok(Object.keys(random_quotes_list).length < 200);
   t.end();
 });
+
+test('quotes.random_by_tag returns a random quote object by tag', function (t) {
+  const tag = "time";
+  const q = quotes.random_by_tag(tag);
+  // check that the quote returned contains the tag in either text or tags:
+  const truthy = q.text.includes(tag) || q.tags && q.tags.includes(tag);
+  t.ok(truthy);
+  t.end();
+});
