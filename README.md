@@ -144,7 +144,7 @@ iex> Quotes.random_by_tag("curious")
 
 <br />
 
-## `Node.js`
+## `JavaScript` / `Node.js`
 
 ### Install from NPM
 
@@ -157,30 +157,39 @@ npm install quotesy --save
 ```js
 // Get Random Quote:
 const quotes = require("quotesy");
-const quote = quotes.random();
-// expect an object of the following form:
+quotes.random(); // expect an object of the following form:
 {
   "author": "Peter Drucker",
   "text": "The best way to predict your future is to create it."
 }
 
+// get a random quote featuring a desired tag e.g: "time"
+quotes.random_by_tag("time");
+{
+  "author": "Leo Tolstoy",
+  "text": "The two most powerful warriors are patience and time."
+}
+```
 
+You can always filter the `json` based on your own custom function:
+
+```js
 // Array of quotes with 12 words
-const quotes = require("quotesy").parse_json;
-const buddha_quotes = quotes.filter(function (item) {
+const json = require("quotesy").parse_json();
+const buddha_quotes = json.filter(function (item) {
   return item.text.split(" ").length <= 12;
 });
 
 // Array of quotes for author Buddha
-const quotes = require("quotesy").parse_json;
-const buddha_quotes = quotes.filter(function (item) {
+const json = require("quotesy").parse_json;
+const buddha_quotes = json.filter(function (item) {
 	return item.author === "Buddha";
 });
 
 ```
 
 
-### React Sample Code:
+### React.js Sample Code:
 
 ```jsx
 // Get Random Quote:
@@ -188,9 +197,9 @@ import quotes from 'quotesy'
 
 class RandomQuote extends Component {
    state = {
-      quote: quotes.random() 
+      quote: quotes.random()
    }
-   
+
    render(){
    const { author, text } = this.state.quote
      return(
@@ -198,7 +207,7 @@ class RandomQuote extends Component {
        	{text}
        <cite>-{author}/cite>
        </blockquote>
-     
+
      )
    }
 }
