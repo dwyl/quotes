@@ -6,8 +6,8 @@ env:
 before_install:
   - npm install # install jsonlint and run *before* anything else
   - npm run jsonlint # ensure that quotes.json is valid JSON
-  - npm test # run JS tests. Yes, there is full funciton parity. ;-)
 script:
   - mix coveralls.json # run elixir tests with coverage
+  - npm test # run JS tests. Yes, there is full funciton parity. ;-)
 after_success:
   - bash <(curl -s https://codecov.io/bash) # send coverage report
