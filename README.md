@@ -76,8 +76,8 @@ to see this module in action!
 
 ### Install from Hex.pm
 
-The `quotes` elixir module is available on hex.pm:
-https://hex.pm/packages/quotes <br />
+The `quotes` Elixir module is available on hex.pm:
+[hex.pm/packages/**quotes**](https://hex.pm/packages/quotes) <br />
 Add `quotes` to your list of `deps` (dependencies) in `mix.exs`:
 
 ```elixir
@@ -94,7 +94,8 @@ In your terminal run the command:
 mix deps.get
 ```
 
-That will download the module into your project's `deps`.
+That will download the module
+into your project's `deps` directory.
 
 ### Usage in `Elixir`
 
@@ -365,8 +366,8 @@ and ***merged*** by an existing member of the project:
 
 ![pull-request-merged](https://user-images.githubusercontent.com/194400/66870725-fde21e00-ef99-11e9-8de1-720ab0ffdeef.png)
 
-Once you have contributed an improvement,
-you will be added to the list of maintainers
+Once you've contributed an improvement,
+you'll be invited to be a maintainer
 and will be able to approve other people's additions.
 
 
