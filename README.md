@@ -216,6 +216,7 @@ class RandomQuote extends Component {
 
 <br />
 <hr />
+
 ## Need a _Different_ Programming Language ...?
 
 Want to add an example in your preferred programming language? <br />
