@@ -104,7 +104,7 @@ To get a random quote from the list invoke:
 iex> Quotes.random()
 ```
 You will receive a `Map`
-with an `"author" and `"text"` fields. e.g:
+with an `"author"` and `"text"` fields. e.g:
 
 ```elixir
 %{
