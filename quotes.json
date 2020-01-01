@@ -157,6 +157,18 @@
   },
   {
     "author": "Albert Einstein",
+    "source": "https://www.goodreads.com/quotes/38836",
+    "tags": "imagination, creativity, inspiration",
+    "text": "Imagination is everything. It is the preview of life's coming attractions."
+  },
+  {
+    "author": "Albert Einstein",
+    "source": "https://www.goodreads.com/quotes/297929",
+    "tags": "imagination, creativity, intelligence",
+    "text": "The true sign of intelligence is not knowledge but imagination."
+  },
+  {
+    "author": "Albert Einstein",
     "text": "In the middle of every difficulty lies opportunity."
   },
   {
@@ -766,6 +778,12 @@
   {
     "author": "Brian Tracy",
     "text": "There is never enough time to do everything, but there is always enough time to do the most important thing."
+  },
+  {
+    "author": "Bruce Garrabrandt",
+    "text": "Creativity doesn't wait for that perfect moment. It fashions its own perfect moments out of ordinary ones.",
+    "source": "https://www.google.com/search?q=Bruce+Garrabrandt+Creativity+doesn%27t+wait",
+    "tags": "creativity, creative, perfect, waiting, ordinary"
   },
   {
     "author": "Bruce Lee",
@@ -1942,6 +1960,12 @@
     "text": "Do not give your attention to what others do or fail to do; give it to what you do or fail to do."
   },
   {
+    "author": "Dieter F. Uchtdorf",
+    "text": "The desire to create is one of the deepest yearnings of the human soul.",
+    "source": "https://www.goodreads.com/quotes/8070701",
+    "tags": "creative, creativity, soul"
+  },
+  {
     "author": "Donald Kircher",
     "text": "A man of ability and the desire to accomplish something can do anything."
   },
@@ -2060,6 +2084,12 @@
   {
     "author": "Edgar Allan Poe",
     "text": "Those who dream by day are cognizant of many things which escape those who dream only by night."
+  },
+  {
+    "author": "Edith Södergran",
+    "text": "The inner fire is the most important thing mankind possesses.",
+    "source": "https://www.goodreads.com/quotes/11458",
+    "tags": "creativity, fire, passion"
   },
   {
     "author": "Edith Wharton",
@@ -2307,7 +2337,15 @@
   },
   {
     "author": "Ernest Hemingway",
-    "text": "Never mistake motion for action."
+    "text": "I like to listen. I have learned a great deal from listening carefully. Most people never listen.",
+    "tags": "listen, learn, learning",
+    "source": "https://www.goodreads.com/quotes/353013"
+  },
+  {
+    "author": "Ernest Hemingway",
+    "text": "Never mistake motion for action.",
+    "tags": "action, motion, mistake",
+    "source": "https://www.goodreads.com/quotes/392801"
   },
   {
     "author": "Etty Hillesum",
@@ -2724,6 +2762,12 @@
     "text": "Work while you have the light. You are responsible for the talent that has been entrusted to you."
   },
   {
+    "author": "Henri Matisse",
+    "source": "https://www.goodreads.com/quotes/21433",
+    "tags": "creativity, courage",
+    "text": "Creativity takes courage."
+  },
+  {
     "author": "Henry Beecher",
     "text": "Gratitude is the fairest blossom which springs from the soul."
   },
@@ -3136,6 +3180,12 @@
     "text": "The bird of paradise alights only upon the hand that does not grasp."
   },
   {
+    "author": "John Cleese",
+    "text": "It's easier to do trivial things that are urgent than it is to do important things that are not, like thinking. And it's also easier to do little things we know we can do than to start on big things that we’re not so sure about.",
+    "source": "https://www.goodreads.com/quotes/548576",
+    "tags": "urgent, important, trivial, thinking, "
+  },
+  {
     "author": "John De Paola",
     "text": "Slow down and everything you are chasing will come around and catch you."
   },
@@ -3316,6 +3366,12 @@
     "text": "Your sacred space is where you can find yourself again and again."
   },
   {
+    "author": "Joseph Chilton Pearce",
+    "text": "To live a creative life, we must lose our fear of being wrong.",
+    "source": "https://www.goodreads.com/quotes/30290",
+    "tags": "creativity, life, fear"
+  },
+  {
     "author": "Joseph Joubert",
     "text": "He who has imagination without learning has wings but no feet."
   },
@@ -3374,6 +3430,12 @@
   {
     "author": "Kathleen Norris",
     "text": "All that is necessary is to accept the impossible, do without the indispensable, and bear the intolerable."
+  },
+  {
+    "author": "Ken Robinson",
+    "text": "If you're not prepared to be wrong, you'll never come up with anything original.",
+    "source": "https://www.ted.com/talks/sir_ken_robinson_do_schools_kill_creativity",
+    "tags": "creative, creativity, original, originality, wrong, mistakes"
   },
   {
     "author": "Ken S. Keyes",
@@ -3729,7 +3791,9 @@
   },
   {
     "author": "Louis Pasteur",
-    "text": "Let me tell you the secret that has led me to my goal: my strength lies solely in my tenacity"
+    "text": "Chance favors the prepared mind.",
+    "tags": "creativity, prepared, preparedness",
+    "source": "https://www.goodreads.com/quotes/9178"
   },
   {
     "author": "Louis Pasteur",
@@ -4102,6 +4166,12 @@
   {
     "author": "Maya Angelou",
     "text": "Nothing will work unless you do."
+  },
+  {
+    "author": "Maya Angelou",
+    "text": "You can't use up creativity. The more you use, the more you have.",
+    "source": "https://www.goodreads.com/quotes/153929",
+    "tags": "curiosity, limitless"
   },
   {
     "author": "Maya Lin",
@@ -5155,7 +5225,7 @@
     "author": "Richard Evans",
     "text": "The undertaking of a new action brings new strength."
   },
-    {
+  {
     "author": "Richard Feynman",
     "source": "https://simple.wikiquote.org/wiki/Richard_Feynman",
     "tags": "create, creation, understand, understanding",
@@ -5426,6 +5496,12 @@
     "text": "Truth is powerful and it prevails."
   },
   {
+    "author": "Sophia Loren",
+    "text": "There is a fountain of youth: it is your mind, your talents, the creativity you bring to your life and the lives of people you love. When you learn to tap this source, you will truly have defeated age.",
+    "source": "https://www.goodreads.com/quotes/8746",
+    "tags": "creativity, youth, age, mind"
+  },
+  {
     "author": "Sophocles",
     "text": "Wisdom is the supreme part of happiness."
   },
@@ -5502,6 +5578,12 @@
     "text": "It is the greatest of all mistakes to do nothing because you can only do little - do what you can."
   },
   {
+    "author": "Sylvia Plath",
+    "source": "https://www.goodreads.com/quotes/358562",
+    "tags": "creativity, confidence, self-doubt, enemy",
+    "text": "The worst enemy to creativity is self-doubt."
+  },
+  {
     "author": "Sylvia Voirol",
     "text": "Rainbows apologize for angry skies."
   },
@@ -5516,6 +5598,12 @@
   {
     "author": "Tenzin Gyatso",
     "text": "When we feel love and kindness toward others, it not only makes others feel loved and cared for, but it helps us also to develop inner happiness and peace."
+  },
+  {
+    "author": "Terry Tempest Williams",
+    "text": "Creativity involves breaking out of expected patterns in order to look at things in a different way.",
+    "source": "https://www.goodreads.com/quotes/784313",
+    "tags": "creative, creativity"
   },
   {
     "author": "Theodore H. White",
@@ -5756,6 +5844,12 @@
   {
     "author": "Turkish proverb",
     "text": "Kind words will unlock an iron door."
+  },
+  {
+    "author": "Ursula Leguin",
+    "text": "The creative adult is the child who survived.",
+    "source": "https://www.goodreads.com/quotes/1260096",
+    "tags": "creative, creativity, child"
   },
   {
     "author": "Usman Asif",
