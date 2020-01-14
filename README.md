@@ -476,7 +476,7 @@ Where a quote from a movie is relevant, add it like this:
   "author": "Yoda",
   "source": "https://www.starwars.com/news/the-starwars-com-10-best-yoda-quotes",
   "tags": "fictional, movie, do, try, star wars"  
-}
+},
 ```
 
 ## 3. Share!
