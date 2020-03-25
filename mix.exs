@@ -40,6 +40,7 @@ defmodule Quotes.MixProject do
 
   defp package() do
     [
+      files: ["lib/quotes.ex", "mix.exs", "README.md", "quotes.json"],
       name: "quotes",
       licenses: ["GNU GPL v2.0"],
       maintainers: ["dwyl"],
