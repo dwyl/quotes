@@ -29,7 +29,8 @@ defmodule Quotes do
   see: https://github.com/nelsonic/quotes#contributing
   """
   def parse_json do
-    File.read!("quotes.json") |> Jason.decode!()
+    {:ok, cwd} = File.cwd
+    File.read!(cwd <> "/quotes.json") |> Jason.decode!()
   end
 
   @doc """
