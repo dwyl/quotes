@@ -7,6 +7,9 @@
 		"lib": "lib",
 		"test": "test"
 	},
+	"files": [
+    "quotes.json"
+  ],
 	"scripts": {
 		"test": "nyc tape ./test/*.test.js | tap-nyc",
 		"jsonlint": "node node_modules/.bin/jsonlint quotes.json"
