@@ -1,6 +1,6 @@
 {
 	"name": "quotesy",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "A collection of inspiring quotes to fuel your progress!",
 	"main": "lib/index.js",
 	"directories": {
@@ -8,8 +8,8 @@
 		"test": "test"
 	},
 	"files": [
-    "quotes.json"
-  ],
+		"quotes.json"
+	],
 	"scripts": {
 		"test": "nyc tape ./test/*.test.js | tap-nyc",
 		"jsonlint": "node node_modules/.bin/jsonlint quotes.json"
