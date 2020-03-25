@@ -38,6 +38,8 @@ defmodule Quotes do
         cwd
       false ->
         File.cd!("deps/quotes")
+        {:ok, cwd} = File.cwd
+        cwd
     end
     # coveralls-ignore-stop
     IO.inspect(cwd, label: "cwd")
