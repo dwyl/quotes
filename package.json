@@ -1,6 +1,6 @@
 {
 	"name": "quotesy",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "A collection of inspiring quotes to fuel your progress!",
 	"main": "lib/index.js",
 	"directories": {
