@@ -39,9 +39,9 @@ defmodule Quotes do
         File.cd!("deps/quotes")
         data = File.read!("quotes.json")
         |> Jason.decode!()
-
+        # chnge back into the root directory
         File.cd!("../..")
-        data
+        data # return the decoded (parsed) JSON data
       # coveralls-ignore-stop
     end
   end

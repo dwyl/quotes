@@ -83,7 +83,7 @@ Add `quotes` to your list of `deps` (dependencies) in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:quotes, "~> 1.0.0"}
+    {:quotes, "~> 1.0.5"}
   ]
 end
 ```
