@@ -30,14 +30,21 @@ defmodule Quotes do
   """
   def parse_json do
     {:ok, cwd} = File.cwd
+    IO.inspect(cwd, label: "cwd 33")
     # we need this cd to locate the file in /deps
     case cwd =~ "/quotes" do
       # coveralls-ignore-start
       true ->
-        File.read!(cwd <> "/quotes.json") |> Jason.decode!()
+        File.read!("/quotes.json") |> Jason.decode!()
       false -> # temporarily cd into deps/quotes dir and read quotes.json file:
-        File.cd!("deps/quotes", File.read!("quotes.json"))
+        File.cd!("deps/quotes")
+        {:ok, cwd} = File.cwd
+        IO.inspect(cwd, label: "cwd 42")
+
+        data = File.read!("quotes.json"))
         |> Jason.decode!()
+        File.cd!("../..")
+        data
       # coveralls-ignore-stop
     end
   end
