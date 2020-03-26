@@ -37,7 +37,7 @@ defmodule Quotes do
         File.read!(cwd <> "/quotes.json") |> Jason.decode!()
       false -> # temporarily cd into deps/quotes dir and read quotes.json file:
         File.cd!("deps/quotes", File.read!("quotes.json"))
-        |> Jason.decode!(data)
+        |> Jason.decode!()
       # coveralls-ignore-stop
     end
   end
