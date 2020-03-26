@@ -35,13 +35,13 @@ defmodule Quotes do
     case cwd =~ "/quotes" do
       # coveralls-ignore-start
       true ->
-        File.read!("/quotes.json") |> Jason.decode!()
+        File.read!("quotes.json") |> Jason.decode!()
       false -> # temporarily cd into deps/quotes dir and read quotes.json file:
         File.cd!("deps/quotes")
         {:ok, cwd} = File.cwd
         IO.inspect(cwd, label: "cwd 42")
 
-        data = File.read!("quotes.json"))
+        data  = File.read!("quotes.json")
         |> Jason.decode!()
         File.cd!("../..")
         data
