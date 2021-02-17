@@ -37,12 +37,6 @@
   },
   {
     "author": "Abraham Lincoln",
-    "source": "https://www.goodreads.com/quotes/328848",
-    "tags": "future, prediction, create, creation, life",
-    "text": "The best way to predict your future is to create it."
-  },
-  {
-    "author": "Abraham Lincoln",
     "text": "Character is like a tree and reputation like a shadow. The shadow is what we think of it; the tree is the real thing."
   },
   {
@@ -1960,6 +1954,11 @@
   {
     "author": "Denis Waitley",
     "text": "The only person who never makes mistakes is the person who never does anything."
+  },
+  {
+    "author": "Dennis Gabor",
+    "text": "The future cannot be predicted, but futures can be invented. It was man's ability to invent which has made human society what it is.",
+    "source": "https://en.wikiquote.org/wiki/Dennis_Gabor"
   },
   {
     "author": "Dennis Kimbro",
@@ -4826,7 +4825,8 @@
   },
   {
     "author": "Peter Drucker",
-    "text": "The best way to predict your future is to create it."
+    "text": "You cannot predict the future, but you can create it.",
+    "source": "https://books.google.com/books?id=mV3XM28AdoIC&pg=PA4&hl=en&sa=X&#v=onepage&q=%22You%20cannot%20predict%20the%20future%2C%20but%20you%20can%20create%20it.%22"
   },
   {
     "author": "Peter Drucker",
