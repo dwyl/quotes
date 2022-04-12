@@ -4,7 +4,7 @@ defmodule Quotes.MixProject do
   def project do
     [
       app: :quotes,
-      version: "1.0.6",
+      version: "1.0.7",
       package: package(),
       description: description(),
       elixir: "~> 1.9",

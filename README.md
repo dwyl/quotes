@@ -1,43 +1,26 @@
-# 💬 `quotes`
+<div align="center">
 
-### Disclaimer for contributions
+# `quotes` 💬
 
-If you are thinking of _contributing_ to this repository (hooray! 🎉),
-please make sure you
-[read the `Contributing` section](https://github.com/dwyl/quotes#contributing)
-of this repo.  
+![When-you-want-something-all-the-universe](https://user-images.githubusercontent.com/194400/162908874-6d1d74cd-a4fd-4dd2-8339-4450c8b4939b.jpeg)
 
-There are many websites that already contain quotes and this repository is
-intended as a _subset_ of uniquely _inspiring_ quotes.
-See [`Avoid Quotes That Don't Inspire Action`](https://github.com/dwyl/quotes#avoid-quotes-that-dont-inspire-action).
-
-As such, ***we remind you that we will only be able to accept PRs that conform
-to the following key criteria***:
-1. An issue has been opened to _propose_ the quote, including why _you_ find it
-particularly inspiring 💡
-2. That issue has received _at least_ 2 'thumbs up' (:+1:) from people in the
-dwyl community.
-3. Your PR refers to the issue itself and has a clear title and description. Not "Updates Quotes".
-
-> Thank you again for your contributions to this and [other dwyl repos](https://github.com/dwyl/?q=learn),
-we very much appreciate it! :heart:
+</div>
 
 ### 1. A collection of inspiring quotations.
 
 The quotes are contained
 in a _single_ file:
-[**`quotes.json`**](https://github.com/nelsonic/quotes/blob/master/quotes.json) <br />
-so they can _easily_ be used independently
-of _any_ programming language.
+[**`quotes.json`**](https://github.com/nelsonic/quotes/blob/master/quotes.json)
+so they
+can _easily_ be used
+in _any_ project.
 
 <!--
 Below are usage examples in
 several languages.
 -->
 
-
 ### 2. A module that returns a quote when invoked.
-
 
 [![Hex pm](http://img.shields.io/hexpm/v/quotes.svg?style=flat-square)](https://hex.pm/packages/quotes)
 [![npm package version](https://img.shields.io/npm/v/quotesy.svg?style=flat-square)](https://www.npmjs.com/package/quotesy)
@@ -45,10 +28,6 @@ several languages.
 [![codecov.io](https://img.shields.io/codecov/c/github/dwyl/quotes/master.svg?style=flat-square)](http://codecov.io/github/dwyl/quotes?branch=master)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/quotes#contributing)
 [![HitCount](http://hits.dwyl.com/dwyl/quotes.svg)](http://hits.dwyl.com/dwyl/quotes)
-
-
-![gandhi-future-depens-on-what-you-do-today](https://user-images.githubusercontent.com/194400/66840284-b9399100-ef5f-11e9-80e4-6d62f872f908.jpg "The future depends on what you do today ~ Mahatma Gandhi")
-
 
 ## Why?
 
@@ -60,6 +39,7 @@ that had _zero_ latency
 and could (_optionally_) work _offline_
 so we collated a database from various sources.
 
+![gandhi-future-depends-on-what-you-do-today](https://user-images.githubusercontent.com/194400/66840284-b9399100-ef5f-11e9-80e4-6d62f872f908.jpg "The future depends on what you do today ~ Mahatma Gandhi")
 
 ## What?
 
@@ -71,7 +51,9 @@ The
 file
 can be used in _any_ project or programming language.
 
-The module can be used from `Elixir` and `Javascript`/`Node.js`.
+The module can be used from `Elixir` and `JavaScript` (`Node.js`, `TypeScript`, etc.) <br />
+(_if you want to use it in a different language
+[**please tell us**](https://github.com/dwyl/quotes/issues/6)_)
 
 ## _How_?
 
@@ -81,6 +63,7 @@ There are two ways you can use this project: <br>
 list of quotes _directly_ (_for any purpose_). <br />
 **B.** Use the module to return a random quote; sample code below.
 
+<br />
 
 ## `Elixir`
 
@@ -90,10 +73,10 @@ was to show a practical
 code reuse example in `Elixir`. <br />
 If you are learning `Elixir`
 (_and we think you
-  [should](https://github.com/dwyl/learn-elixir/issues/102)
-  be_),
+[should](https://github.com/dwyl/learn-elixir/issues/102)
+be_),
 follow along with the <!-- update link once published! -->
-[code reuse tutorial](https://github.com/dwyl/learn-elixir/blob/code-reuse-publishing-to-hexpm-issue%2395/code-reuse-hexpm.md)
+[code reuse tutorial](https://github.com/dwyl/learn-elixir/blob/master/code-reuse-hexpm.md)
 to see this module in action!
 
 ### Install from Hex.pm
@@ -126,6 +109,7 @@ To get a random quote from the list invoke:
 ```elixir
 iex> Quotes.random()
 ```
+
 You will receive a `Map`
 with an `"author"` and `"text"` fields. e.g:
 
@@ -146,8 +130,8 @@ _Some_ of the quotes have been augmented with a `"source"` and `"tags"`:
   "text" => "Until we can manage time, we can manage nothing else."
 }
 ```
-`random_by_tag` - get a _random_ quote by a _specific_ tag e.g: `Quotes.random_by_tag("time")`
 
+`random_by_tag` - get a _random_ quote by a _specific_ tag e.g: `Quotes.random_by_tag("time")`
 
 ```elixir
 iex> Quotes.random_by_tag("time")
@@ -206,11 +190,9 @@ const buddha_quotes = json.filter(function (item) {
 // Array of quotes for author Buddha
 const json = require("quotesy").parse_json;
 const buddha_quotes = json.filter(function (item) {
-	return item.author === "Buddha";
+  return item.author === "Buddha";
 });
-
 ```
-
 
 ### React.js Sample Code:
 
@@ -273,7 +255,7 @@ we aren't interested in quotes with a negative tone.
 For example, consider the following quote which is _not_ included in our list:
 
 > "_Happiness in intelligent people is the rarest thing I know_.”
-~ [Ernest Hemingway](https://en.wikipedia.org/wiki/Ernest_Hemingway)
+> ~ [Ernest Hemingway](https://en.wikipedia.org/wiki/Ernest_Hemingway)
 
 This quote is certainly _interesting_
 and it may even be **`true`** in certain cases;
@@ -282,6 +264,7 @@ in history have been utterly miserable for whatever reason.
 While the quote is insightful
 it's _definitely_ not _positive_
 and does not inspire any _action_.
+
 <!--
 it implies that intelligence
 and happiness are
@@ -299,14 +282,12 @@ there simply isn't any _empirical **evidence**_.
 `#rant`
 -->
 
-
-
 ### _Improve_ Existing Quotes with Sources & Tags
 
 Open the `quotes.json` file and scroll through the quotes. <br />
 If you find a quote that you like
 (_that doesn't already have "source" or "tags")
-you can _enhance_ it with a source and tags.
+you can \_enhance_ it with a source and tags.
 
 For example, consider the following quote
 (_before the addition of a source or tags_):
@@ -334,9 +315,10 @@ https://www.goodreads.com/quotes/11458-i-have-no-special-talents-i-am-only-passi
 We only need the part of the URL up to the end of the digits:
 https://www.goodreads.com/quotes/11458 <br />
 (_the rest is added to the URL for SEO purposes
-  and is not required to find the resource_)
+and is not required to find the resource_)
 
 Add the source and any relevant tags:
+
 ```js
 {
   "author": "Albert Einstein",
@@ -345,6 +327,7 @@ Add the source and any relevant tags:
   "tags": "talent, curious, curiosity, passion"
 },
 ```
+
 Open the
 [`quotes.json`](https://github.com/dwyl/quotes/blob/master/quotes.json)
 file in your web browser (_while logged-in to GitHub_):
@@ -384,14 +367,13 @@ Example: https://github.com/dwyl/quotes/pull/7
 Provided your changes/improvements pass the automated checks
 and are sensible, <br />
 they will be **approved**
-and ***merged*** by an existing member of the project:
+and **_merged_** by an existing member of the project:
 
 ![pull-request-merged](https://user-images.githubusercontent.com/194400/66870725-fde21e00-ef99-11e9-8de1-720ab0ffdeef.png)
 
 Once you've contributed an improvement,
 you'll be invited to be a maintainer
 and will be able to approve other people's additions.
-
 
 <!-- Let's add this in once we have received a few quote submissions
 ### 1.b _Review_ Pull Requests for New Additions
@@ -402,7 +384,6 @@ At that point you will be able to review
 other people's additions.
 -->
 
-
 ## 2. Add Quotes!
 
 If there is a quote
@@ -410,7 +391,6 @@ you find inspiring/motivating
 that is _not_ already in the
 [**`quotes.json`**](https://github.com/nelsonic/quotes/blob/master/quotes.json)
 file, please add it!
-
 
 ## Guidelines for Good Quotes
 
@@ -420,18 +400,18 @@ Avoid adding quotes that are essays; the shorter the quote the better. <br />
 For example:
 
 > "_Here's to the crazy ones. The misfits. The rebels.
-The troublemakers. The round pegs in the square holes.
-The ones who see things differently.
-They're not fond of rules.
-And they have no respect for the status quo.
-You can quote them, disagree with them, glorify or vilify them.
-About the only thing you can't do is ignore them.
-Because they change things.
-They push the human race forward.
-And while some may see them as the crazy ones, we see genius.
-Because the people who are crazy enough to think they can change the world,
-are the ones who do._"
-~ Rob Siltanen
+> The troublemakers. The round pegs in the square holes.
+> The ones who see things differently.
+> They're not fond of rules.
+> And they have no respect for the status quo.
+> You can quote them, disagree with them, glorify or vilify them.
+> About the only thing you can't do is ignore them.
+> Because they change things.
+> They push the human race forward.
+> And while some may see them as the crazy ones, we see genius.
+> Because the people who are crazy enough to think they can change the world,
+> are the ones who do._"
+> ~ Rob Siltanen
 
 That quote is 101 words (547 characters); it's an essay.
 It was the **script** written by Siltanen
@@ -439,9 +419,9 @@ for the Apple "Think Different" commercial.
 We prefer the short version (18 words | 85 characters):
 
 > "_The people who are crazy enough
-to think they can change the world
-are the ones who do._"
-~ [Rob Siltanen](https://www.goodreads.com/author/quotes/14907567.Rob_Siltanen)
+> to think they can change the world
+> are the ones who do._"
+> ~ [Rob Siltanen](https://www.goodreads.com/author/quotes/14907567.Rob_Siltanen)
 
 There is definitely a place for longer quotes
 e.g: the ["Think Different"](https://en.wikipedia.org/wiki/Think_different)
@@ -460,7 +440,7 @@ In this case the addition would be:
   "text": "The people who are crazy enough to think they can change the world are the ones who do.",
   "author": "Rob Siltanen",
   "source": "https://www.goodreads.com/quotes/597615",
-  "tags": "change, world, apple, think, different"  
+  "tags": "change, world, apple, think, different"
 }
 ```
 
@@ -469,7 +449,7 @@ Given that Steve Jobs _read_ the script in the Apple "Think Different"
 commercial, people often _misattribute_ the quote to Steve.
 A minute of research and we are better informed:
 https://www.forbes.com/sites/onmarketing/2011/12/14/the-real-story-behind-apples-think-different-campaign <br />
-Jobs initially called the script “sh*t” ...
+Jobs initially called the script “sh\*t” ...
 Read the article, it's a _fascinating_ insight into the creative process!
 
 ### Avoid Quotes That Don't Inspire _Action_
@@ -481,14 +461,11 @@ is often _hilarious_ and even insightful,
 but this quote while amusing,
 does not _inspire_ any _action_ in the reader.
 
-
 ### Film Quotes
 
 Movies can _often_ be thought provoking, insightful and positive. e.g:
 
 ![do-or-do-not-yoda](https://user-images.githubusercontent.com/194400/66716967-bd34aa00-edcb-11e9-9f04-db549a770707.gif "Do or do not, there is no try! ~ Yoda")
-
-
 
 Where a quote from a movie is relevant, add it like this:
 
@@ -497,18 +474,16 @@ Where a quote from a movie is relevant, add it like this:
   "text": "Do. Or do not. There is no try",
   "author": "Yoda",
   "source": "https://www.starwars.com/news/the-starwars-com-10-best-yoda-quotes",
-  "tags": "fictional, movie, do, try, star wars"  
+  "tags": "fictional, movie, do, try, star wars"
 },
 ```
 
 ## 3. Share!
 
-+ Let others know about this bank of quotes
-by "starring" the project on GitHub! ⭐️
-+ If you have an interesting use case for quotes,
-please share!
-
-
+- Let others know about this bank of quotes
+  by "starring" the project on GitHub! ⭐️
+- If you have an interesting use case for quotes,
+  please share!
 
 <br />
 
@@ -526,3 +501,45 @@ see: `Utils.clean` in
 [/lib/utils.ex#L17](https://github.com/dwyl/quotes/blob/cff02564691b512e66a2d39701fcd0d6b19d98f3/lib/utils.ex#L17)
 
 -->
+
+### Disclaimer for contributions
+
+If you are thinking of _contributing_ to this repository (hooray! 🎉),
+please make sure you
+[read the `Contributing` section](https://github.com/dwyl/quotes#contributing)
+of this repo.
+
+There are many websites that already contain quotes
+and this repository is
+intended as a _subset_ of uniquely _inspiring_ quotes.
+See [`Avoid Quotes That Don't Inspire Action`](https://github.com/dwyl/quotes#avoid-quotes-that-dont-inspire-action).
+
+As such, **_we remind you that we will only be able to accept PRs that conform
+to the following key criteria_**:
+
+1. An issue has been opened to _propose_ the quote, including why _you_ find it
+   particularly inspiring 💡
+2. That issue has received _at least_ 2 'thumbs up' (:+1:) from people in the
+   dwyl community.
+3. Your PR refers to the issue itself and has a clear title and description. Not "Updates Quotes".
+
+> Thank you again for your contributions to this and [other dwyl repos](https://github.com/dwyl/?q=learn),
+> we very much appreciate it! ❤️
+
+<br />
+
+### Pull Request "_Rejection_"?
+
+As noted above,
+this repo focusses on quotes
+that **_unequivocally_ inspire action**.
+
+If a quote just makes people think,
+but doesn't inspire action we may not merge your Pull Request ...
+
+Please don't be personally offended.
+You're very welcome to **_fork_** the project
+and use it as the basis for your own list of quotes.
+_Many_ people have forked:
+[dwyl/quotes/network/members](https://github.com/dwyl/quotes/network/members)
+that is the beauty of Open Source. 🌻
