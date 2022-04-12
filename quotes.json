@@ -37,12 +37,6 @@
   },
   {
     "author": "Abraham Lincoln",
-    "source": "https://www.goodreads.com/quotes/328848",
-    "tags": "future, prediction, create, creation, life",
-    "text": "The best way to predict your future is to create it."
-  },
-  {
-    "author": "Abraham Lincoln",
     "text": "Character is like a tree and reputation like a shadow. The shadow is what we think of it; the tree is the real thing."
   },
   {
@@ -159,6 +153,8 @@
   },
   {
     "author": "Albert Einstein",
+    "source": "https://en.wikiquote.org/wiki/Albert_Einstein",
+    "tags": "intelligence, knowledge, simplicity, understanding",
     "text": "If you can't explain it simply, you don't understand it well enough."
   },
   {
@@ -213,7 +209,9 @@
   },
   {
     "author": "Albert Gray",
-    "text": "Winners have simply formed the habit of doing things losers don't like to do."
+    "text": "Winners have simply formed the habit of doing things losers don't like to do.",
+    "source" : "https://www.goodreads.com/quotes/524224",
+    "tags" : "winners, habit, losers"
   },
   {
     "author": "Albert Schweitzer",
@@ -372,15 +370,11 @@
     "text": "You learn to speak by speaking, to study by studying, to run by running, to work by working; in just the same way, you learn to love by loving."
   },
   {
-    "author": "Andre Gide",
+    "author": "André Gide",
     "text": "One does not discover new lands without consenting to lose sight of the shore for a very long time."
   },
   {
-    "author": "Andre Gide",
-    "text": "The most decisive actions of our life... are most often unconsidered actions."
-  },
-  {
-    "author": "Andrew Gide",
+    "author": "André Gide",
     "text": "The most decisive actions of our life... are most often unconsidered actions."
   },
   {
@@ -450,18 +444,6 @@
     "text": "Listen to your intuition. It will tell you everything you need to know."
   },
   {
-    "author": "Anthony Robbins",
-    "text": "Life is a gift, and it offers us the privilege, opportunity, and responsibility to give something back by becoming more"
-  },
-  {
-    "author": "Anthony Robbins",
-    "text": "The path to success is to take massive, determined action."
-  },
-  {
-    "author": "Anthony Robbins",
-    "text": "To effectively communicate, we must realize that we are all different in the way we perceive the world and use this understanding as a guide to our communication with others."
-  },
-  {
     "author": "Antoine de Saint-Exupery",
     "text": "It is only with the heart that one can see rightly, what is essential is invisible to the eye."
   },
@@ -507,6 +489,8 @@
   },
   {
     "author": "Aristotle",
+    "source": "https://www.goodreads.com/quotes/1309500",
+    "tags": "Criticism",
     "text": "Criticism is something you can easily avoid by saying nothing, doing nothing, and being nothing."
   },
   {
@@ -519,6 +503,8 @@
   },
   {
     "author": "Aristotle",
+    "source": "https://www.goodreads.com/quotes/101859",
+    "tags": "energy, essence, life-lessons, mind",
     "text": "The energy of the mind is the essence of life."
   },
   {
@@ -540,6 +526,13 @@
   {
     "author": "Arthur Schopenhauer",
     "text": "Every man takes the limits of his own field of vision for the limits of the world."
+  },
+  {
+    "author": "Arianna Huffington",
+    "source": "https://quotefancy.com/quote/1246163",
+    "tags": "Sleep, Ideas",
+    "text": "Discover the great ideas that lie inside you by discovering the power of sleep."
+    
   },
   {
     "author": "Audre Lorde",
@@ -666,23 +659,19 @@
     "text": "Yesterday I dared to struggle. Today I dare to win."
   },
   {
-    "author": "Bernard Shaw",
-    "text": "Life isn't about finding yourself. Life is about creating yourself."
-  },
-  {
-    "author": "Bernard Shaw",
+    "author": "George Bernard Shaw",
     "text": "A life spent making mistakes is not only more honourable but more useful than a life spent in doing nothing."
   },
   {
-    "author": "Bernard Shaw",
+    "author": "George Bernard Shaw",
     "text": "I am of the opinion that my life belongs to the community, and as long as I live it is my privilege to do for it whatever I can."
   },
   {
-    "author": "Bernard Shaw",
+    "author": "George Bernard Shaw",
     "text": "We don't stop playing because we grow old; we grow old because we stop playing."
   },
   {
-    "author": "Bernard Shaw",
+    "author": "George Bernard Shaw",
     "source": "https://www.goodreads.com/quotes/8727",
     "tags": "meaning, creativity",
     "text": "Life isn't about finding yourself. Life is about creating yourself."
@@ -702,6 +691,12 @@
   {
     "author": "Betty Friedan",
     "text": "It is easier to live through someone else than to become complete yourself."
+  },
+  {
+    "author": "Bill Gates",
+    "source": "https://www.goodreads.com/quotes/323288",
+    "tags": "inspirational",
+    "text": "Success is a lousy teacher. It seduces smart people into thinking they can't lose."
   },
   {
     "author": "Billie Armstrong",
@@ -1500,6 +1495,12 @@
     "text": "Happiness does not come from having much, but from being attached to little."
   },
   {
+    "author": "Chelsea Leyland",
+    "source": "https://www.brainyquote.com/quotes/chelsea_leyland_624473",
+    "tags": "Beauty, Sleep, Secret",
+    "text": "Sleep is the real beauty secret, but I dont get enough of that."
+  },
+  {
     "author": "Chinese proverb",
     "text": "Learning is a treasure that will follow its owner everywhere"
   },
@@ -1791,6 +1792,12 @@
   },
   {
     "author": "Dalai Lama",
+    "source": "https://dailymeditate.com/meditation-quote-99-sleep-meditation-dalai-lama/",
+    "tags": "Mindful, Sleep, Meditation, Relaxing, Rest",
+    "text": "Sleep is the best meditation."
+  },
+  {
+    "author": "Dalai Lama",
     "text": "I believe that we are fundamentally the same and have the same basic potential."
   },
   {
@@ -1982,6 +1989,11 @@
     "text": "The only person who never makes mistakes is the person who never does anything."
   },
   {
+    "author": "Dennis Gabor",
+    "text": "The future cannot be predicted, but futures can be invented. It was man's ability to invent which has made human society what it is.",
+    "source": "https://en.wikiquote.org/wiki/Dennis_Gabor"
+  },
+  {
     "author": "Dennis Kimbro",
     "text": "We see things not as they are, but as we are. Our perception is shaped by our previous experiences."
   },
@@ -2042,6 +2054,12 @@
   {
     "author": "Doris Mortman",
     "text": "Until you make peace with who you are, you'll never be content with what you have."
+  },
+  {
+    "author": "Tom Brady",
+    "source": "https://www.brainyquote.com/quotes/tom_brady_807060",
+    "tags": "Sleep, Routine, Sport",
+    "text": "Proper sleep has helped me get to where I am today as an athlete, and it is something that I continue to rely on every day."
   },
   {
     "author": "Dorothy Thompson",
@@ -2370,6 +2388,12 @@
     "text": "One that desires to excel should endeavour in those things that are in themselves most excellent."
   },
   {
+    "author": "Eric Hoffer",
+    "source": "https://www.goodreads.com/quotes/10562",
+    "tags": "change, learners, learned, learn, world",
+    "text": "In times of change learners inherit the earth, while the learned find themselves beautifully equipped to deal with a world that no longer exists."
+  },
+  {
     "author": "Eriksson",
     "text": "The greatest barrier to success is the fear of failure."
   },
@@ -2520,6 +2544,12 @@
   {
     "author": "Friedrich von Schiller",
     "text": "If you want to study yourself, look into the hearts of other people. If you want to study other people, look into your own heart."
+  },
+  {
+    "author": "Fyodor Dostoyevsky",
+    "source": "https://www.goodreads.com/author/quotes/3137322.Fyodor_Dostoyevsky",
+    "tags": "soul, children, healing",
+    "text": "The soul is healed by being with children."
   },
   {
     "author": "G. K. Chesterton",
@@ -3377,6 +3407,12 @@
   },
   {
     "author": "John Steinbeck",
+    "source": "https://www.goodreads.com/quotes/990924",
+    "tags": "Sleep-on-it, Subconcious-mind",
+    "text": "It is a common experience that a problem difficult at night is resolved in the morning after the committee of sleep has worked on it."
+  },
+  {
+    "author": "John Steinbeck",
     "text": "If we could learn to like ourselves, even a little, maybe our cruelties and angers might melt away."
   },
   {
@@ -3597,7 +3633,8 @@
   },
   {
     "author": "Lao Tzu",
-    "text": "He who obtains has little. He who scatters has much."
+    "text": "He who obtains has little. He who scatters has much.",
+    "source": "https://americanart.si.edu/artwork/he-who-obtains-has-little-he-who-scatters-has-much-lao-tzu-6th-century-bc-chinese-moralist"
   },
   {
     "author": "Lao Tzu",
@@ -3672,15 +3709,7 @@
     "text": "Music in the soul can be heard by the universe."
   },
   {
-    "author": "Lao-Tzu",
-    "text": "All difficult things have their origin in that which is easy, and great things in that which is small."
-  },
-  {
-    "author": "Laozi",
-    "text": "When you are content to be simply yourself and don't compare or compete, everybody will respect you."
-  },
-  {
-    "author": "Laozi",
+    "author": "Lao Tzu",
     "text": "The power of intuitive understanding will protect you from harm until the end of your days."
   },
   {
@@ -4273,10 +4302,6 @@
   },
   {
     "author": "Michelangelo",
-    "text": "There is no greater harm than that of time wasted."
-  },
-  {
-    "author": "Michelangelo",
     "text": "The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it."
   },
   {
@@ -4851,7 +4876,8 @@
   },
   {
     "author": "Peter Drucker",
-    "text": "The best way to predict your future is to create it."
+    "text": "You cannot predict the future, but you can create it.",
+    "source": "https://books.google.com/books?id=mV3XM28AdoIC&pg=PA4&hl=en&sa=X&#v=onepage&q=%22You%20cannot%20predict%20the%20future%2C%20but%20you%20can%20create%20it.%22"
   },
   {
     "author": "Peter Drucker",
@@ -4950,6 +4976,17 @@
   {
     "author": "Rachel Carson",
     "text": "If facts are the seeds that later produce knowledge and wisdom, then the emotions and the impressions of the senses are the fertile soil in which the seeds must grow."
+  },
+  {
+    "author":"Rahul Dravid",
+    "text": "You don't play for revenge. You play for respect and pride",
+    "source": "https://www.azquotes.com/quote/877863"
+  },
+  {
+    "author": "Rainer Maria Rilke",
+    "text": "Let everything happen to you. Beauty and terror. Just keep going. No feeling is final",
+    "tags": "life, feelings, fearlessness, persistence",
+    "source": "https://goodreads.com/quotes/95915"
   },
   {
     "author": "Ralph Blum",
@@ -5284,10 +5321,6 @@
     "text": "Argue for your limitations, and sure enough they're yours."
   },
   {
-    "author": "Richard Braunstein",
-    "text": "He who obtains has little. He who scatters has much."
-  },
-  {
     "author": "Richard Evans",
     "text": "The undertaking of a new action brings new strength."
   },
@@ -5466,6 +5499,12 @@
     "text": "Don't look back. Something might be gaining on you."
   },
   {
+    "author": "Satya Nadella",
+    "source": "https://www.goodreads.com/quotes/8907834",
+    "tags": "technology",
+    "text": "Our industry does not respect tradition. What it respects is innovation."
+  },
+  {
     "author": "Saul Alinsky",
     "text": "As an organizer I start from where the world is, as it is, not as I would like it to be."
   },
@@ -5608,6 +5647,12 @@
   {
     "author": "St. Augustine",
     "text": "Better to have loved and lost, than to have never loved at all."
+  },
+  {
+    "author": "Steve Jobs",
+    "source": "https://www.goodreads.com/author/quotes/5255891.Steve_Jobs",
+    "tags": "inspirational",
+    "text": "Stay hungry. Stay foolish."
   },
   {
     "author": "Stephen Covey",
@@ -5916,12 +5961,26 @@
     "text": "People are not lazy. They simply have impotent goals - that is, goals that do not inspire them."
   },
   {
+    "author": "Tony Robbins",
+    "text": "Life is a gift, and it offers us the privilege, opportunity, and responsibility to give something back by becoming more"
+  },
+  {
+    "author": "Tony Robbins",
+    "text": "To effectively communicate, we must realize that we are all different in the way we perceive the world and use this understanding as a guide to our communication with others."
+  },
+  {
     "author": "Tryon Edwards",
     "text": "He that never changes his opinions, never corrects his mistakes, and will never be wiser on the morrow than he is today."
   },
   {
     "author": "Turkish proverb",
     "text": "Kind words will unlock an iron door."
+  },
+  {
+    "author": "Unknown",
+    "source": "https://quoteinvestigator.com/2017/03/23/same/",
+    "tags": "action, change, creative, creativity, sanity",
+    "text": "The definition of insanity is doing the same thing over and over again and expecting a different result."
   },
   {
     "author": "Ursula Leguin",
@@ -6210,6 +6269,12 @@
     "text": "For everything that lives is holy, life delights in life."
   },
   {
+    "author": "William Blake",
+    "source": "https://www.goodreads.com/quotes/218205",
+    "tags": "Advice, Rest, Nuitrition",
+    "text": "Think in the morning. Act in the noon. Eat in the evening. Sleep in the night."
+  },
+  {
     "author": "William Burroughs",
     "text": "Your mind will answer most questions if you learn to relax and wait for the answer."
   },
@@ -6250,8 +6315,20 @@
     "text": "Six essential qualities that are the key to success: Sincerity, personal integrity, humility, courtesy, wisdom, charity."
   },
   {
+    "author": "William H. McRaven",
+    "source": "https://quotefancy.com/quote/1582978",
+    "tags": "Exercise, Sleep, Balance",
+    "text": "I think the best way to get a good night sleep is to work hard throughout the day. If you work hard and, of course, work out."
+  },
+  {
     "author": "William Penn",
     "text": "True silence is the rest of the mind; it is to the spirit what sleep is to the body, nourishment and refreshment."
+  },
+  {
+    "author": "Walter Reisch",
+    "source": "https://www.pinterest.com/pin/69805862960101466",
+    "tags": "Calmness, Sleep, Plan",
+    "text": "Tired minds dont plan well. Sleep first, plan later."
   },
   {
     "author": "William R. Inge",
@@ -6272,6 +6349,12 @@
   {
     "author": "William Shakespeare",
     "text": "Love all, trust a few, do wrong to none."
+  },
+  {
+    "author": "William Shakespeare",
+    "source": "https://www.goodreads.com/quotes/8516632",
+    "tags": "Sleep, Poetry, Resting",
+    "text": "Sleep that knits up the ravelled sleave of care. The death of each days life, sore labors bath. Balm of hurt minds, great natures second course. Chief nourisher in lifes feast."
   },
   {
     "author": "William Shakespeare",
@@ -6443,10 +6526,6 @@
   },
   {
     "author": "Zig Ziglar",
-    "text": "You are the only person on Earth who can use your ability."
-  },
-  {
-    "author": "Zig Ziglar",
     "text": "You are the only person on earth who can use your ability."
   },
   {
@@ -6460,5 +6539,125 @@
   {
     "author": "Ziggy",
     "text": "You can complain because roses have thorns, or you can rejoice because thorns have roses."
+  },
+  {
+    "author": "Paul Graham",
+    "text": "That’s the thing about counter-intuitive ideas, they contradict your intuitions. So, they seem wrong.",
+    "source": "www.paulgraham.com/before.html",
+    "tags": "ideas, intuition, startup"
+  },
+  {
+    "author": "Saint Augustine",
+    "text": "Because God has made us for Himself, our hearts are restless until they rest in Him.",
+    "source": "https://www.thegospelcoalition.org/blogs/justin-taylor/an-analysis-of-one-of-the-greatest-sentences-ever-written/",
+    "tags": "Faith, Christianity, Saint, God, Augustine"
+  },
+  {
+    "author": "Saint Augustine",
+    "text": "To fall in love with God is the greatest romance; to seek him the greatest adventure; to find him, the greatest human achievement",
+    "source": "https://www.livingwithchrist.us/thought_of_the_day/to-fall-in-love-with-god-is-the-greatest-romance-to-seek-him-the-greatest-adventure-to-find-him-the-greatest-human-achievement-st-augustine-of-hippo/",
+    "tags": "Faith, Christianity, Saint, God, Augustine"
+  },
+  {
+    "author": "Martin Luther",
+    "text": "Remove Christ from the Scriptures and there is nothing left.",
+    "source": "https://www.azquotes.com/author/9142-Martin_Luther/tag/scripture",
+    "tags": "Reformer, Martin Luther, God, Christianity, Faith, Scripture"
+  },
+  {
+    "author": "Marcus Aurelius",
+    "text": "Today I escaped anxiety. Or no, I discarded it, because it was within me, in my own perceptions — not outside.",
+    "source": "https://www.goodreads.com/quotes/8765043-today-i-escaped-anxiety-or-no-i-discarded-it-because",
+    "tags": "anxiety, stoic, perception"
+  },
+  {
+    "author": "Marcus Aurelius",
+    "text": "You have power over your mind — not outside events. Realize this, and you will find strength.",
+    "source": "https://medium.com/stories-by-aurora-e/20-stoic-quotes-that-will-motivate-and-inspire-you-bfb4fc7fc660",
+    "tags": "tags: inspiration, stoic"
+  },
+  {
+    "author": "Oscar Wilde",
+    "text": "Be yourself; everyone else is already taken.",
+    "source": "https://www.goodreads.com/quotes/19884-be-yourself-everyone-else-is-already-taken",
+    "tags": "stoic"
+  },
+  {
+    "author": "Diogenes of Sinope",
+    "text": "A philosopher named Aristippus, who had quite willingly sucked up to Dionysus and won himself a spot at his court, saw Diogenes cooking lentils for a meal. If you would only learn to compliment Dionysus, you wouldn't have to live on lentils. Diogenes replied, But if you would only learn to live on lentils, you wouldn't have to flatter Dionysus.",
+    "source": "https://www.goodreads.com/quotes/7242929-a-philosopher-named-aristippus-who-had-quite-willingly-sucked-up",
+    "tags": "stoic, willpower, mentality"
+  },
+  {
+    "author": "Diogenes",
+    "text": "When some one reminded him that the people of Sinope had sentenced him to exile, he said, And I sentenced them to stay at home.",
+    "source": "https://www.goodreads.com/quotes/524180-when-some-one-reminded-him-that-the-people-of-sinope",
+    "tags": "stoic, outlook, mentality"
+  },
+  {
+    "author": "Zeno of Citium",
+    "text": "Man conquers the world by conquering himself.",
+    "source": "https://www.goodreads.com/quotes/515411-man-conquers-the-world-by-conquering-himself",
+    "tags": "stoic"
+  },
+  {
+    "author": "Seneca",
+    "text": "Luck is what happens when preparation meets opportunity.",
+    "source": "https://www.goodreads.com/quotes/17490-luck-is-what-happens-when-preparation-meets-opportunity",
+    "tags": "stoic, luck"
+  },
+  {
+    "author": "Lucius Annaeus Seneca",
+    "text": "We suffer more often in imagination than in reality",
+    "source": "https://www.goodreads.com/quotes/341035-we-suffer-more-often-in-imagination-than-in-reality",
+    "tags": "stoic, pain"
+  },
+  {
+    "author": "Lucius Annaeus Seneca",
+    "text": "Difficulties strengthen the mind, as labor does the body.",
+    "source": "https://www.goodreads.com/quotes/81134-difficulties-strengthen-the-mind-as-labor-does-the-body",
+    "tags": "stoic, strength"
+  },
+  {
+    "author": "Diogenes",
+    "text": "The art of being a slave is to rule one's master.",
+    "source": "https://www.goodreads.com/quotes/524169-the-art-of-being-a-slave-is-to-rule-one-s",
+    "tags": "stoic, mentality"
+  },
+  {
+    "author": "Epictetus",
+    "text": "There is only one way to happiness and that is to cease worrying about things which are beyond the power or our will. ",
+    "source": "https://www.goodreads.com/quotes/123453-there-is-only-one-way-to-happiness-and-that-is?page=2",
+    "tags": "stoic, willpower"
+  },
+  {
+    "author": "Seneca",
+    "text": "It is the power of the mind to be unconquerable.",
+    "source": "https://www.goodreads.com/quotes/37051-it-is-the-power-of-the-mind-to-be-unconquerable",
+    "tags": "stoic, willpower"
+  },
+  {
+    "author": "Taleb Nassim Nicholas",
+    "text": "A Stoic is someone who transforms fear into prudence, pain into transformation, mistakes into initiation, and desire into undertaking.",
+    "source": "https://www.goodreads.com/quotes/563493-a-stoic-is-someone-who-transforms-fear-into-prudence-pain",
+    "tags": "stoic"
+  },
+  {
+    "author": "Salman Rushdie",
+    "text": "How do you defeat terrorism? Don’t be terrorized.",
+    "source": "https://www.goodreads.com/quotes/144304-how-do-you-defeat-terrorism-don-t-be-terrorized",
+    "tags": "stoic"
+  },
+  {
+    "author": "Bruce Lee",
+    "text": "Do not pray for an easy life, pray for the strength to endure a difficult one",
+    "source": "https://www.goodreads.com/quotes/4146-do-not-pray-for-an-easy-life-pray-for-the",
+    "tags": "life, stoic"
+  },
+  {
+    "author": "Bruce Lee",
+    "text": "Be happy, but never satisfied.",
+    "source": "https://www.goodreads.com/quotes/19527-be-happy-but-never-satisfied",
+    "tags": "stoic, happiness"
   }
 ]

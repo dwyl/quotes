@@ -1,5 +1,27 @@
 # 💬 `quotes`
 
+### Disclaimer for contributions
+
+If you are thinking of _contributing_ to this repository (hooray! 🎉),
+please make sure you
+[read the `Contributing` section](https://github.com/dwyl/quotes#contributing)
+of this repo.  
+
+There are many websites that already contain quotes and this repository is
+intended as a _subset_ of uniquely _inspiring_ quotes.
+See [`Avoid Quotes That Don't Inspire Action`](https://github.com/dwyl/quotes#avoid-quotes-that-dont-inspire-action).
+
+As such, ***we remind you that we will only be able to accept PRs that conform
+to the following key criteria***:
+1. An issue has been opened to _propose_ the quote, including why _you_ find it
+particularly inspiring 💡
+2. That issue has received _at least_ 2 'thumbs up' (:+1:) from people in the
+dwyl community.
+3. Your PR refers to the issue itself and has a clear title and description. Not "Updates Quotes".
+
+> Thank you again for your contributions to this and [other dwyl repos](https://github.com/dwyl/?q=learn),
+we very much appreciate it! :heart:
+
 ### 1. A collection of inspiring quotations.
 
 The quotes are contained
@@ -22,7 +44,7 @@ several languages.
 [![Build Status](https://img.shields.io/travis/dwyl/quotes/master.svg?style=flat-square)](https://travis-ci.org/dwyl/quotes)
 [![codecov.io](https://img.shields.io/codecov/c/github/dwyl/quotes/master.svg?style=flat-square)](http://codecov.io/github/dwyl/quotes?branch=master)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/quotes#contributing)
-[![HitCount](http://hits.dwyl.io/dwyl/quotes.svg)](http://hits.dwyl.io/dwyl/quotes)
+[![HitCount](http://hits.dwyl.com/dwyl/quotes.svg)](http://hits.dwyl.com/dwyl/quotes)
 
 
 ![gandhi-future-depens-on-what-you-do-today](https://user-images.githubusercontent.com/194400/66840284-b9399100-ef5f-11e9-80e4-6d62f872f908.jpg "The future depends on what you do today ~ Mahatma Gandhi")
