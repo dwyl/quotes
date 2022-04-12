@@ -88,7 +88,7 @@ Add `quotes` to your list of `deps` (dependencies) in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:quotes, "~> 1.0.6"}
+    {:quotes, "~> 1.0.7"}
   ]
 end
 ```
@@ -535,7 +535,7 @@ this repo focusses on quotes
 that **_unequivocally_ inspire action**.
 
 If a quote just makes people think,
-but doesn't inspire action we may not merge your Pull Request ...
+but doesn't inspire action we may not merge your Pull Request ... 😞
 
 Please don't be personally offended.
 You're very welcome to **_fork_** the project

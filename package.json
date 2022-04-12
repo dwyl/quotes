@@ -57,6 +57,7 @@
 		"report-dir": "./coverage"
 	},
 	"pre-commit": [
+		"jsonlint",
 		"test"
 	]
 }
