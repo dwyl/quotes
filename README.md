@@ -25,7 +25,7 @@ several languages.
 [![Hex pm](http://img.shields.io/hexpm/v/quotes.svg?style=flat-square)](https://hex.pm/packages/quotes)
 [![npm package version](https://img.shields.io/npm/v/quotesy.svg?style=flat-square)](https://www.npmjs.com/package/quotesy)
 [![Build Status](https://img.shields.io/travis/dwyl/quotes/master.svg?style=flat-square)](https://travis-ci.org/dwyl/quotes)
-[![codecov.io](https://img.shields.io/codecov/c/github/dwyl/quotes/master.svg?style=flat-square)](http://codecov.io/github/dwyl/quotes?branch=master)
+[![codecov.io](https://img.shields.io/codecov/c/github/dwyl/quotes/main.svg?style=flat-square)](http://codecov.io/github/dwyl/quotes?branch=main)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/quotes#contributing)
 [![HitCount](http://hits.dwyl.com/dwyl/quotes.svg)](http://hits.dwyl.com/dwyl/quotes)
 
