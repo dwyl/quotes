@@ -12,7 +12,7 @@
 	],
 	"scripts": {
 		"test": "nyc tape ./test/*.test.js | tap-nyc",
-		"jsonlint": "node node_modules/.bin/jsonlint quotes.json"
+		"jsonlint": "node node_modules/.bin/jsonlint quotes.json -q"
 	},
 	"repository": {
 		"type": "git",
