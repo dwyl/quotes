@@ -32,7 +32,7 @@ defmodule Quotes.MixProject do
       {:jason, "~> 1.1"},
 
       # Create docs for publishing Hex.docs: github.com/elixir-lang/ex_doc
-      {:ex_doc, "~> 0.28", only: :dev},
+      {:ex_doc, "~> 0.27", only: :dev, runtime: false},
 
       # Check test coverage: github.com/parroty/excoveralls
       {:excoveralls, "~> 0.14.3", only: :test},
