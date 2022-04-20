@@ -1,6 +1,6 @@
 {
 	"name": "quotesy",
-	"version": "1.0.5",
+	"version": "1.0.7",
 	"description": "A collection of inspiring quotes to fuel your progress!",
 	"main": "lib/index.js",
 	"directories": {
@@ -12,7 +12,7 @@
 	],
 	"scripts": {
 		"test": "nyc tape ./test/*.test.js | tap-nyc",
-		"jsonlint": "node node_modules/.bin/jsonlint quotes.json"
+		"jsonlint": "node node_modules/.bin/jsonlint quotes.json -q"
 	},
 	"repository": {
 		"type": "git",
@@ -57,6 +57,7 @@
 		"report-dir": "./coverage"
 	},
 	"pre-commit": [
+		"jsonlint",
 		"test"
 	]
 }

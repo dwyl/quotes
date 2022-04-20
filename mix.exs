@@ -4,7 +4,7 @@ defmodule Quotes.MixProject do
   def project do
     [
       app: :quotes,
-      version: "1.0.5",
+      version: "1.0.7",
       package: package(),
       description: description(),
       elixir: "~> 1.9",
@@ -28,9 +28,14 @@ defmodule Quotes.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      # Parse JSON file: github.com/michalmuskala/jason
       {:jason, "~> 1.1"},
-      {:ex_doc, "~> 0.21", only: :dev},
-      {:excoveralls, "~> 0.10", only: :test},
+
+      # Create docs for publishing Hex.docs: github.com/elixir-lang/ex_doc
+      {:ex_doc, "~> 0.28", only: :dev, runtime: false},
+
+      # Check test coverage: github.com/parroty/excoveralls
+      {:excoveralls, "~> 0.14.3", only: :test},
     ]
   end
 
