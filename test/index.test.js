@@ -45,3 +45,21 @@ test('quotes.random_by_tag returns a random quote object by tag', function (t) {
   t.ok(truthy);
   t.end();
 });
+
+test('quotes.random_by_author returns a random quote object by author', function (t) {
+  const name = "Mahatma Gandhi";
+  const q = quotes.random_by_author(name);
+  // check that the quote returned contains the tag in either text or author:
+  const truthy = q.text.includes(name) || q.author && q.author.includes(name);
+  t.ok(truthy);
+  t.end();
+});
+
+test('quotes.random_by_source returns a random quote object by source', function (t) {
+  const url = "https://www.goodreads.com";
+  const q = quotes.random_by_source(url);
+  // check that the quote returned contains the tag in either text or source url:
+  const truthy = q.text.includes(url) || q.source && q.source.includes(url);
+  t.ok(truthy);
+  t.end();
+});
