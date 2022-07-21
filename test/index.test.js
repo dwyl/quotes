@@ -49,7 +49,7 @@ test('quotes.random_by_tag returns a random quote object by tag', function (t) {
 test('quotes.random_by_author returns a random quote object by author', function (t) {
   const name = "Mahatma Gandhi";
   const q = quotes.random_by_author(name);
-  // check that the quote returned contains the tag in either text or author:
+  // check that the quote returned contains the author name in either text or author:
   const truthy = q.text.includes(name) || q.author && q.author.includes(name);
   t.ok(truthy);
   t.end();
@@ -58,8 +58,26 @@ test('quotes.random_by_author returns a random quote object by author', function
 test('quotes.random_by_source returns a random quote object by source', function (t) {
   const url = "https://www.goodreads.com";
   const q = quotes.random_by_source(url);
-  // check that the quote returned contains the tag in either text or source url:
+  // check that the quote returned contains the source url in either text or source:
   const truthy = q.text.includes(url) || q.source && q.source.includes(url);
   t.ok(truthy);
+  t.end();
+});
+
+test('quotes.search_by_author returns a list of searched quote objects by author name', function (t) {
+  const name = "Alexis Carrel";
+  t.ok(Object.keys(quotes.search_by_author(name)).length > 0);
+  t.end();
+});
+
+test('quotes.search_by_tag returns a list of searched quote objects by tag', function (t) {
+  const tag = "time";
+  t.ok(Object.keys(quotes.search_by_tag(tag)).length > 0);
+  t.end();
+});
+
+test('quotes.search_by_source returns a list of searched quote objects by source', function (t) {
+  const url = "https://www.goodreads.com";
+  t.ok(Object.keys(quotes.search_by_source(url)).length > 0);
   t.end();
 });
