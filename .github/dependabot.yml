@@ -6,3 +6,9 @@ updates:
     interval: weekly
     time: "17:00"
     timezone: Europe/London
+  ignore:
+      # ignore all patch updates in dev dependencies ref: github.com/dwyl/technology-stack/issues/126 [alphabetical list]
+    - dependency-name: "excoveralls"
+      update-types: ["version-update:semver-patch"]
+    - dependency-name: "ex_doc"
+      update-types: ["version-update:semver-patch"]
