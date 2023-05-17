@@ -151,6 +151,70 @@ iex> Quotes.random_by_tag("curious")
 
 <br />
 
+## `Dart`
+
+### Install from `Dart` packages
+
+```sh
+dart pub get quotesy
+```
+
+### `Dart` sample code
+
+- Get the whole `list` of quotes.
+
+```dart
+import 'package:quotesy/quotesy.dart';
+
+final quotesArray = await Quotes.list();
+[
+  {
+  "author": "Peter Drucker",
+  "text": "The best way to predict your future is to create it."
+  }
+]
+```
+
+- Get the list of quotes from a specific author.
+
+```dart
+import 'package:quotesy/quotesy.dart';
+
+final authorQuotesArray = await Quotes.byAuthor("Peter Drucker");
+[
+  {
+  "author": "Peter Drucker",
+  "text": "The best way to predict your future is to create it."
+  }
+]
+```
+
+- Get a `random` quote.
+
+```dart
+import 'package:quotesy/quotesy.dart';
+
+final randomQuote = await Quotes.random();
+{
+  "author": "Zig Ziglar",
+  "text": "Positive thinking will let you do everything better than negative thinking will."
+}
+```
+
+- Get a `random` quote from an author.
+
+```dart
+import 'package:quotesy/quotesy.dart';
+
+final randomQuote = await Quotes.singleRandomByAuthor("William Shakespeare");
+{
+  "author": "William Shakespeare",
+  "text": "Speak low, if you speak love."
+}
+```
+
+<br />
+
 ## `JavaScript` / `Node.js`
 
 ### Install from NPM
