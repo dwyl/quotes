@@ -34,4 +34,4 @@ coverage
 # Ignore Dart-related package files
 pubspec.lock
 .dart_tool/
-
+build

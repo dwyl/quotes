@@ -3,8 +3,28 @@
 /// More dartdocs go here.
 library quotesy;
 
-class Awesome {
-  bool get isAwesome => true;
+import 'dart:convert';
+import 'dart:io';
+
+class QuoteInfo {
+  final String author;
+  final String text;
+
+  QuoteInfo(this.text, this.author);
+
+  factory QuoteInfo.fromJson(Map<String, dynamic> json) {
+    return QuoteInfo(
+      json['text'],
+      json['author'],
+    );
+  }
 }
 
-// TODO: Export any libraries intended for clients of this package.
+class Quotes {
+  static Future<List<QuoteInfo>> loadQuotes() async {
+    String jsonString = await File('quotes.json').readAsString();
+    List<dynamic> jsonList = json.decode(jsonString);
+    List<QuoteInfo> quotes = jsonList.map((json) => QuoteInfo.fromJson(json)).toList();
+    return quotes;
+  }
+}
