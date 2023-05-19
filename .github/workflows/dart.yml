@@ -1,0 +1,32 @@
+name: Dart CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      # Installing Flutter because it's easier to generate .lcov files for test coverage
+      - name: Install Flutter
+        uses: subosito/flutter-action@v2
+
+      - name: Install dependencies
+        run: dart pub get
+
+      # Your project will need to have tests in test/ and a dependency on
+      # package:test for this step to succeed. Note that Flutter projects will
+      # want to change this to 'flutter test'.
+      - name: Run tests
+        run: flutter test --coverage
+
+      - uses: codecov/codecov-action@v2
+        with:
+          files: coverage/lcov.info
+          verbose: true # optional (default = false)

@@ -24,7 +24,8 @@ several languages.
 
 [![Hex pm](http://img.shields.io/hexpm/v/quotes.svg?style=flat-square)](https://hex.pm/packages/quotes)
 [![npm package version](https://img.shields.io/npm/v/quotesy.svg?style=flat-square)](https://www.npmjs.com/package/quotesy)
-[![Build Status](https://img.shields.io/travis/dwyl/quotes/master.svg?style=flat-square)](https://travis-ci.org/dwyl/quotes)
+![Elixir Build Status](https://img.shields.io/github/actions/workflow/status/dwyl/quotes/elixir.yml?label=Elixir&style=flat-square)
+![Dart Build Status](https://img.shields.io/github/actions/workflow/status/dwyl/quotes/dart.yml?label=Dart&style=flat-square)
 [![codecov.io](https://img.shields.io/codecov/c/github/dwyl/quotes/main.svg?style=flat-square)](http://codecov.io/github/dwyl/quotes?branch=main)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/quotes#contributing)
 [![HitCount](http://hits.dwyl.com/dwyl/quotes.svg)](http://hits.dwyl.com/dwyl/quotes)
@@ -146,6 +147,70 @@ iex> Quotes.random_by_tag("curious")
   "source" => "https://www.goodreads.com/quotes/11458",
   "tags" => "talent, curious, curiosity, passion",
   "text" => "I have no special talent. I am only passionately curious."
+}
+```
+
+<br />
+
+## `Dart`
+
+### Install from `Dart` packages
+
+```sh
+dart pub get quotesy
+```
+
+### `Dart` sample code
+
+- Get the whole `list` of quotes.
+
+```dart
+import 'package:quotesy/quotesy.dart';
+
+final quotesArray = await Quotes.list();
+[
+  {
+  "author": "Peter Drucker",
+  "text": "The best way to predict your future is to create it."
+  }
+]
+```
+
+- Get the list of quotes from a specific author.
+
+```dart
+import 'package:quotesy/quotesy.dart';
+
+final authorQuotesArray = await Quotes.byAuthor("Peter Drucker");
+[
+  {
+  "author": "Peter Drucker",
+  "text": "The best way to predict your future is to create it."
+  }
+]
+```
+
+- Get a `random` quote.
+
+```dart
+import 'package:quotesy/quotesy.dart';
+
+final randomQuote = await Quotes.random();
+{
+  "author": "Zig Ziglar",
+  "text": "Positive thinking will let you do everything better than negative thinking will."
+}
+```
+
+- Get a `random` quote from an author.
+
+```dart
+import 'package:quotesy/quotesy.dart';
+
+final randomQuote = await Quotes.singleRandomByAuthor("William Shakespeare");
+{
+  "author": "William Shakespeare",
+  "text": "Speak low, if you speak love."
 }
 ```
 
