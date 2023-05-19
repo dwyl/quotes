@@ -24,6 +24,7 @@ several languages.
 
 [![Hex pm](http://img.shields.io/hexpm/v/quotes.svg?style=flat-square)](https://hex.pm/packages/quotes)
 [![npm package version](https://img.shields.io/npm/v/quotesy.svg?style=flat-square)](https://www.npmjs.com/package/quotesy)
+[![pub package](https://img.shields.io/pub/v/quotesy.svg)](https://pub.dev/packages/quotesy)
 ![Elixir Build Status](https://img.shields.io/github/actions/workflow/status/dwyl/quotes/elixir.yml?label=Elixir&style=flat-square)
 ![Dart Build Status](https://img.shields.io/github/actions/workflow/status/dwyl/quotes/dart.yml?label=Dart&style=flat-square)
 [![codecov.io](https://img.shields.io/codecov/c/github/dwyl/quotes/main.svg?style=flat-square)](http://codecov.io/github/dwyl/quotes?branch=main)
