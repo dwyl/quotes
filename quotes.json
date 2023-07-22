@@ -4133,10 +4133,8 @@
   },
   {
     "author": "Marie Curie",
-    "text": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less."
-  },
-  {
-    "author": "Marie Curie",
+    "source": "https://www.goodreads.com/quotes/45949",
+    "tags": "idea, ideas, curious, curiosity, people, gossip",
     "text": "Be less curious about people and more curious about ideas."
   },
   {
@@ -5778,6 +5776,12 @@
     "text": "Stay hungry. Stay foolish."
   },
   {
+    "author": "Sue Grafton",
+    "source": "https://www.goodreads.com/quotes/6862779",
+    "tags": "idea, ideas, execution",
+    "text": "Ideas are easy. It's the execution of ideas that really separates the sheep from the goats."
+  },
+  {
     "author": "Sue Patton Thoele",
     "text": "Deep listening is miraculous for both listener and speaker. When someone receives us with open-hearted, non-judging, intensely interested listening, our spirits expand."
   },
@@ -6145,7 +6149,9 @@
   },
   {
     "author": "Victor Hugo",
-    "text": "An invasion of armies can be resisted, but not an idea whose time has come."
+    "source": "https://www.goodreads.com/quotes/2302",
+    "tags": "idea, ideas, time",
+    "text": "No army can withstand the strength of an idea whose time has come."
   },
   {
     "author": "Victoria Holt",
