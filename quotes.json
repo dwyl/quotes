@@ -326,31 +326,31 @@
     "text": "I am like a falling star who has finally found her place next to another in a lovely constellation, where we will sparkle in the heavens forever."
   },
   {
-    "author": "Anais Nin",
+    "author": "Anaïs Nin",
     "text": "Life shrinks or expands in proportion to one's courage."
   },
   {
-    "author": "Anais Nin",
+    "author": "Anaïs Nin",
     "text": "The possession of knowledge does not kill the sense of wonder and mystery. There is always more mystery."
   },
   {
-    "author": "Anais Nin",
+    "author": "Anaïs Nin",
     "text": "Dreams pass into the reality of action. From the actions stems the dream again; and this interdependence produces the highest form of living."
   },
   {
-    "author": "Anais Nin",
+    "author": "Anaïs Nin",
     "text": "The personal life deeply lived always expands into truths beyond itself."
   },
   {
-    "author": "Anais Nin",
+    "author": "Anaïs Nin",
     "text": "Age does not protect you from love. But love, to some extent, protects you from age."
   },
   {
-    "author": "Anais Nin",
+    "author": "Anaïs Nin",
     "text": "The dream was always running ahead of me. To catch up, to live for a moment in unison with it, that was the miracle."
   },
   {
-    "author": "Anais Nin",
+    "author": "Anaïs Nin",
     "text": "There is not one big cosmic meaning for all, there is only the meaning we each give to our life."
   },
   {
@@ -487,10 +487,6 @@
   },
   {
     "author": "Aristotle",
-    "text": "We are what we repeatedly do. Excellence, then, is not an act, but a habit."
-  },
-  {
-    "author": "Aristotle",
     "text": "Those that know, do. Those that understand, teach."
   },
   {
@@ -498,10 +494,6 @@
     "source": "https://www.goodreads.com/quotes/1309500",
     "tags": "Criticism",
     "text": "Criticism is something you can easily avoid by saying nothing, doing nothing, and being nothing."
-  },
-  {
-    "author": "Aristotle",
-    "text": "We are what we repeatedly do. Excellence, then, is not an act but a habit."
   },
   {
     "author": "Aristotle",
@@ -2549,7 +2541,7 @@
     "text": "If you want to study yourself, look into the hearts of other people. If you want to study other people, look into your own heart."
   },
   {
-    "author": "Fyodor Dostoyevsky",
+    "author": "Fyodor Dostoevsky",
     "source": "https://www.goodreads.com/author/quotes/3137322.Fyodor_Dostoyevsky",
     "tags": "soul, children, healing",
     "text": "The soul is healed by being with children."
@@ -2615,6 +2607,10 @@
   {
     "author": "George Bernard Shaw",
     "text": "The possibilities are numerous once we decide to act and not react."
+  },
+  {
+    "author": "George Bernard Shaw",
+    "text": "We do not quit playing because we grow old, we grow old because we quit playing."
   },
   {
     "author": "George Eliot",
@@ -4076,7 +4072,7 @@
   {
     "author": "Marcus Aurelius",
     "source": "https://medium.com/stories-by-aurora-e/20-stoic-quotes-that-will-motivate-and-inspire-you-bfb4fc7fc660",
-    "tags": "tags: inspiration, stoic",
+    "tags": "inspiration, stoic",
     "text": "You have power over your mind — not outside events. Realize this, and you will find strength."
   },
   {
@@ -4137,10 +4133,8 @@
   },
   {
     "author": "Marie Curie",
-    "text": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less."
-  },
-  {
-    "author": "Marie Curie",
+    "source": "https://www.goodreads.com/quotes/45949",
+    "tags": "idea, ideas, curious, curiosity, people, gossip",
     "text": "Be less curious about people and more curious about ideas."
   },
   {
@@ -4668,10 +4662,6 @@
   {
     "author": "Oliver Wendell Holmes, Sr.",
     "text": "A man may fulfil the object of his existence by asking a question he cannot answer, and attempting a task he cannot achieve."
-  },
-  {
-    "author": "Oliver Wendell Holmes, Sr.",
-    "text": "We do not quit playing because we grow old, we grow old because we quit playing."
   },
   {
     "author": "Oliver Wendell Holmes, Sr.",
@@ -5786,6 +5776,12 @@
     "text": "Stay hungry. Stay foolish."
   },
   {
+    "author": "Sue Grafton",
+    "source": "https://www.goodreads.com/quotes/6862779",
+    "tags": "idea, ideas, execution",
+    "text": "Ideas are easy. It's the execution of ideas that really separates the sheep from the goats."
+  },
+  {
     "author": "Sue Patton Thoele",
     "text": "Deep listening is miraculous for both listener and speaker. When someone receives us with open-hearted, non-judging, intensely interested listening, our spirits expand."
   },
@@ -6153,7 +6149,9 @@
   },
   {
     "author": "Victor Hugo",
-    "text": "An invasion of armies can be resisted, but not an idea whose time has come."
+    "source": "https://www.goodreads.com/quotes/2302",
+    "tags": "idea, ideas, time",
+    "text": "No army can withstand the strength of an idea whose time has come."
   },
   {
     "author": "Victoria Holt",
@@ -6375,11 +6373,15 @@
   },
   {
     "author": "Whoopi Goldberg",
-    "text": "Were here for a reason. I believe a bit of the reason is to throw little torches out to lead people through the dark."
+    "text": "We're here for a reason. I believe a bit of the reason is to throw little torches out to lead people through the dark."
   },
   {
     "author": "Will Durant",
     "text": "The trouble with most people is that they think with their hopes or fears or wishes rather than with their minds."
+  },
+  {
+    "author": "Will Durant",
+    "text": "We are what we repeatedly do. Excellence, then, is not an act, but a habit."
   },
   {
     "author": "Will Rogers",
@@ -6408,7 +6410,7 @@
   {
     "author": "William Blake",
     "source": "https://www.goodreads.com/quotes/218205",
-    "tags": "Advice, Rest, Nuitrition",
+    "tags": "Advice, Rest, Nutrition",
     "text": "Think in the morning. Act in the noon. Eat in the evening. Sleep in the night."
   },
   {
@@ -6485,7 +6487,7 @@
     "author": "William Shakespeare",
     "source": "https://www.goodreads.com/quotes/8516632",
     "tags": "Sleep, Poetry, Resting",
-    "text": "Sleep that knits up the ravelled sleave of care. The death of each days life, sore labors bath. Balm of hurt minds, great natures second course. Chief nourisher in life's feast."
+    "text": "Sleep that knits up the ravelled sleeve of care. The death of each days life, sore labors bath. Balm of hurt minds, great natures second course. Chief nourisher in life's feast."
   },
   {
     "author": "William Shakespeare",
