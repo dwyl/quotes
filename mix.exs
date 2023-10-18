@@ -35,7 +35,7 @@ defmodule Quotes.MixProject do
       {:ex_doc, "~> 0.28", only: :dev, runtime: false},
 
       # Check test coverage: github.com/parroty/excoveralls
-      {:excoveralls, "~> 0.17.0", only: :test},
+      {:excoveralls, "~> 0.18.0", only: :test},
     ]
   end
 
